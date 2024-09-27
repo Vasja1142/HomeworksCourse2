@@ -4,24 +4,28 @@ class PR_1
     public static void Main()
     {
 
+        Task1();
+
+        Task2();
         Task3();
+
     }
 
     public static void Task1()
     {
-        int n = PrintNum("n");
-        int m = PrintNum("m");
-        int res1 = m + --n;
+        double n = PrintDNum("n");
+        double m = PrintDNum("m");
+        double res1 = m + --n;
         bool res2 = m++ < --n;
         bool res3 = --m > n--;
         Console.WriteLine($"Результат 1: {res1}");
         Console.WriteLine($"Результат 2: {res2}");
         Console.WriteLine($"Результат 3: {res3}");
-        int x = PrintNum("x");
+        double x = PrintDNum("x");
         while (x==0)
         {
             Console.WriteLine("Деление на 0");
-            x = PrintNum("x");
+            x = PrintDNum("x");
         }
         double res4 = Math.Sqrt(Math.Pow(3, x) + Math.Pow(3, x)) + 1/x*x; //ctg(arctg(x^2)) = 1/x^2
         Console.WriteLine($"Результат 4: {res4}");
@@ -29,8 +33,8 @@ class PR_1
 
     public static void Task2()
     {
-        int x = PrintNum("x");
-        int y = PrintNum("y");
+        double x = PrintDNum("x");
+        double y = PrintDNum("y");
         bool res = false;
         if (x != 0 || y != 0)
         {
@@ -43,13 +47,13 @@ class PR_1
     {
         float a1 = 1000f;
         float b1 = 0.0001f;
-        float res1 = (float)(Math.Pow(3, a1-b1) - (a1*a1*a1 + 3*a1*a1*b1)/(3*a1*b1*b1 + b1*b1*b1));
-        Console.WriteLine(res1);
+        float res1 = (float)((a1 - b1) * (a1 - b1) * (a1 - b1) - a1 * a1 * a1) / (float)((-b1*b1*b1) + (3 * b1 * a1 * a1) - (3 * b1 * a1 * a1));
+        Console.WriteLine("Значение float: "+ res1);
 
         double a2 = 1000;
         double b2 = 0.0001;
-        double res2 = (Math.Pow(3, a2 - b2) - (a2 * a2 * a2 + 3 * a2 * a2 * b2) / (3 * a2 * b2 * b2 + b2 * b2*b2));
-        Console.WriteLine(res2);
+        double res2 = ((a2 - b2) * (a2 - b2) * (a2 - b2) - a2 * a2 * a2) / ((-b2 * b2 * b2) + (3 * b2 * a2 * a2) - (3 * b2 * a2 * a2));
+        Console.WriteLine("Значение double: " + res2);
     }
 
 
@@ -62,6 +66,17 @@ class PR_1
         {
             Console.WriteLine("Введено неверное значение");
             flag = int.TryParse(Console.ReadLine(), out val);
+        }
+        return val;
+    }
+    public static double PrintDNum(string nameVal)
+    {
+        Console.WriteLine($"Введите значение {nameVal}:");
+        bool flag = double.TryParse(Console.ReadLine(), out double val);
+        while (!flag)
+        {
+            Console.WriteLine("Введено неверное значение");
+            flag = double.TryParse(Console.ReadLine(), out val);
         }
         return val;
     }
