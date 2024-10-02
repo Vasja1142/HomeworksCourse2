@@ -3,12 +3,35 @@ class PR_1
 {
     public static void Main()
     {
-
-        Task1();
-
-        Task2();
-        Task3();
-
+        int numTask;
+        bool isNum;
+        bool flag = true;
+        while (flag) {
+            Console.WriteLine("Для выхода из программы введите \"0\". Введите номер задания: ");
+            isNum = int.TryParse(Console.ReadLine(), out numTask);
+            while (!isNum)
+            {
+                Console.WriteLine("Неверное значение!");
+                isNum = int.TryParse(Console.ReadLine(), out numTask);
+            }
+            switch (numTask) {
+                case 0:
+                    flag = false; 
+                    break;    
+                case 1:
+                    Task1();
+                    break;
+                case 2:
+                    Task2();
+                    break;
+                case 3:
+                    Task3();
+                    break;
+                default:
+                    Console.WriteLine("Такого задания нет!");
+                    break;
+            }
+        }
     }
 
     public static void Task1()
@@ -47,12 +70,12 @@ class PR_1
     {
         float a1 = 1000f;
         float b1 = 0.0001f;
-        float res1 = (float)((a1 - b1) * (a1 - b1) * (a1 - b1) - a1 * a1 * a1) / (float)((-b1*b1*b1) + (3 * b1 * a1 * a1) - (3 * b1 * a1 * a1));
+        float res1 = ((a1 - b1) * (a1 - b1) * (a1 - b1) - (a1 * a1 * a1)) / ((-b1*b1*b1) + (3 * b1 * b1 * a1) - (3 * b1 * a1 * a1));
         Console.WriteLine("Значение float: "+ res1);
 
         double a2 = 1000;
         double b2 = 0.0001;
-        double res2 = ((a2 - b2) * (a2 - b2) * (a2 - b2) - a2 * a2 * a2) / ((-b2 * b2 * b2) + (3 * b2 * a2 * a2) - (3 * b2 * a2 * a2));
+        double res2 = ((a2 - b2) * (a2 - b2) * (a2 - b2) - (a2 * a2 * a2)) / ((-b2 * b2 * b2) + (3 * b2 * b2 * a2) - (3 * b2 * a2 * a2));
         Console.WriteLine("Значение double: " + res2);
     }
 

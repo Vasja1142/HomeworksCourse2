@@ -25,7 +25,7 @@ namespace LR_3
             bool flag;
             Set[] ActSets = new Set[2];
 
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 5; i++)
             {
                 flag = true;
                 while (flag)
