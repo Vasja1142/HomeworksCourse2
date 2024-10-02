@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj": {}
+    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj": {
+    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj",
+        "projectUniqueName": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj",
         "projectName": "LR_1",
-        "projectPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj",
-        "packagesPath": "C:\\Users\\Василий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\obj\\",
+        "projectPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\LR_1.csproj",
+        "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\LR_1\\LR_3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Василий\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vasja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

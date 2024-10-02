@@ -25,7 +25,7 @@ namespace LR_3
             bool flag;
             Set[] ActSets = new Set[2];
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 2; i++)
             {
                 flag = true;
                 while (flag)
@@ -140,7 +140,7 @@ namespace LR_3
 
         internal static Set[] CreateSets(Set mainSet)
         {
-            int lenSets = 2;
+            int lenSets = 5;
             Set[] sets = new Set[lenSets];
             char nameArr;
             bool flag;
