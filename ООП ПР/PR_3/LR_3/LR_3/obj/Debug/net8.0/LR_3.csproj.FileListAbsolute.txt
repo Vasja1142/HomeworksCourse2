@@ -1,0 +1,15 @@
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\bin\Debug\net8.0\LR_3.exe
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\bin\Debug\net8.0\LR_3.deps.json
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\bin\Debug\net8.0\LR_3.runtimeconfig.json
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\bin\Debug\net8.0\LR_3.dll
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\bin\Debug\net8.0\LR_3.pdb
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.AssemblyInfoInputs.cache
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.AssemblyInfo.cs
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.csproj.CoreCompileInputs.cache
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.sourcelink.json
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.dll
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\refint\LR_3.dll
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.pdb
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\LR_3.genruntimeconfig.cache
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_3\LR_3\LR_3\obj\Debug\net8.0\ref\LR_3.dll
