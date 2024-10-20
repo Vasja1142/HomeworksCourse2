@@ -22,13 +22,13 @@ namespace LR_3
         internal static void Action(Set[] sets, Set mainSet)
         {
 
-            bool flag;
+            bool isRunSetProgram;
             Set[] ActSets = new Set[2];
 
             for (int i = 0; i < 2; i++)
             {
-                flag = true;
-                while (flag)
+                isRunSetProgram = true;
+                while (isRunSetProgram)
                 {
                     string message = $"Выберите {i+1}-е множество: \n" +
                         "1 - U \n2 - A \n3 - B \n4 - C \n5 - D \n6 - E";
@@ -38,69 +38,75 @@ namespace LR_3
                         case 1:
                             ActSets[i] = mainSet;
                             ActSets[i].print();
-                            flag = false;
+                            isRunSetProgram = false;
                             break;
                         case 2:
                             ActSets[i] = sets[0];
                             ActSets[i].print();
-                            flag = false;
+                            isRunSetProgram = false;
                             break;
                         case 3:
                             ActSets[i] = sets[1];
                             ActSets[i].print();
-                            flag = false;
+                            isRunSetProgram = false;
                             break;
                         case 4:
                             ActSets[i] = sets[2];
                             ActSets[i].print();
-                            flag = false;
+                            isRunSetProgram = false;
                             break;
                         case 5:
                             ActSets[i] = sets[3];
                             ActSets[i].print();
-                            flag = false;
+                            isRunSetProgram = false;
                             break;
                         case 6:
                             ActSets[i] = sets[4];
                             ActSets[i].print();
-                            flag = false;
+                            isRunSetProgram = false;
                             break;
                         default:
                             Console.WriteLine("Введенно неверное значение!"); break;
                     }
                 }
             }
-            flag = true;
-            while (flag)
+            isRunSetProgram = true;
+            while (isRunSetProgram)
             {
                 string message = "Выберите действие над множествами: \n" +
-                    "1 - пересечение \n2 - объединение \n3 - разность \n4 - симметричная разность \n5 - дополнение";
+                    "1 - пересечение \n2 - объединение \n3 - разность \n4 - симметричная разность \n5 - дополнение\n 6 - Проверить на принадлежность числа к множеству (первому)\n 7 - множество. Для выхода нажмите 0.";
                 int numTask = ConsoleTryParse(message);
                 switch (numTask)
                 {
                     case 0:
-                        Console.WriteLine("Выход"); flag = false; break;
+                        Console.WriteLine("Выход"); isRunSetProgram = false; break;
                     case 1:
                         ActSets[0].intersection(ActSets[1]).print();
-                        flag = false;
                         break;
                     case 2:
                         ActSets[0].union(ActSets[1]).print();
-                        flag = false; 
                         break;
                     case 3:
                         ActSets[0].difference(ActSets[1]).print();
-                        flag = false;
                         break;
                     case 4:
                         ActSets[0].symmetricalDiff(ActSets[1]).print();
-                        flag = false;
                         break;
                     case 5:
-                        ActSets[0].compliment(ActSets[1]).print();
-                        flag = false;
+                        mainSet.compliment(ActSets[1]).print();
                         break;
+                    case 6:
+                        bool isNum = false;
+
+                            int val = App.ConsoleTryParse($"Введите значение: ");
+                            Console.WriteLine(ActSets[0].isThereNum(val));
                         
+                        break;
+                    case 7:
+                        Console.WriteLine(ActSets[1].isThereSet(ActSets[0]));
+                        break;
+
+
                     default:
                         Console.WriteLine("Введенно неверное значение!"); break;
 
@@ -112,9 +118,9 @@ namespace LR_3
         {
             string message = "Как вы хотите создать множество?" +
                 "\n1 - Заполнить рандомными значениями\n2 - Заполнить вручную";
-            bool flag = true;
+            bool isCreate = true;
             Set U = new Set(0,'U');
-            while (flag)
+            while (isCreate)
             {
                 int numTask = ConsoleTryParse(message);
                 switch (numTask)
@@ -123,12 +129,12 @@ namespace LR_3
                     case 1:
                         U = Create.SetRandom('U');
                         U.print();
-                        flag = false;
+                        isCreate = false;
                         break;
                     case 2:
                         U = Create.SetConsole('U');
                         U.print();
-                        flag = false;
+                        isCreate = false;
                         break;
                     default:
                         Console.WriteLine("Введенно неверное значение!"); break;
@@ -143,14 +149,14 @@ namespace LR_3
             int lenSets = 5;
             Set[] sets = new Set[lenSets];
             char nameArr;
-            bool flag;
+            bool isCreateSets;
             for (int i = 0; i < lenSets; i++)
             {
                 nameArr = (char)(i + 65);
                 string message = $"Как вы хотите создать подмножество {nameArr}?" +
                     "\n1 - Заполнить рандомными значениями\n2 - Заполнить вручную";
-                flag = true;
-                while (flag)
+                isCreateSets = true;
+                while (isCreateSets)
                 {
                     int numTask = ConsoleTryParse(message);
                     switch (numTask)
@@ -159,12 +165,12 @@ namespace LR_3
                         case 1:
                             sets[i] = Create.SetRandom(nameArr, mainSet);
                             sets[i].print();
-                            flag = false;
+                            isCreateSets = false;
                             break;
                         case 2:
                             sets[i] = Create.SetConsole(nameArr, mainSet);
                             sets[i].print();
-                            flag = false;
+                            isCreateSets = false;
                             break;
                         default:
                             Console.WriteLine("Введенно неверное значение!"); break;

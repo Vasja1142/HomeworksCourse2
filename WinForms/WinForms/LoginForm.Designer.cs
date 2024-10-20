@@ -56,8 +56,9 @@
             panel1.Controls.Add(panel2);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(391, 450);
+            panel1.Size = new Size(447, 600);
             panel1.TabIndex = 0;
             // 
             // buttonRegister
@@ -68,9 +69,10 @@
             buttonRegister.FlatAppearance.MouseOverBackColor = Color.LightGray;
             buttonRegister.FlatStyle = FlatStyle.Flat;
             buttonRegister.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            buttonRegister.Location = new Point(202, 374);
+            buttonRegister.Location = new Point(231, 499);
+            buttonRegister.Margin = new Padding(3, 4, 3, 4);
             buttonRegister.Name = "buttonRegister";
-            buttonRegister.Size = new Size(177, 41);
+            buttonRegister.Size = new Size(204, 55);
             buttonRegister.TabIndex = 6;
             buttonRegister.Text = "Регистрация";
             buttonRegister.UseVisualStyleBackColor = false;
@@ -84,9 +86,10 @@
             buttonLogin.FlatAppearance.MouseOverBackColor = Color.LightGray;
             buttonLogin.FlatStyle = FlatStyle.Flat;
             buttonLogin.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            buttonLogin.Location = new Point(12, 374);
+            buttonLogin.Location = new Point(12, 499);
+            buttonLogin.Margin = new Padding(3, 4, 3, 4);
             buttonLogin.Name = "buttonLogin";
-            buttonLogin.Size = new Size(184, 41);
+            buttonLogin.Size = new Size(212, 55);
             buttonLogin.TabIndex = 5;
             buttonLogin.Text = "Войти";
             buttonLogin.UseVisualStyleBackColor = false;
@@ -95,18 +98,20 @@
             // passField
             // 
             passField.Font = new Font("Comic Sans MS", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            passField.Location = new Point(148, 263);
+            passField.Location = new Point(169, 351);
+            passField.Margin = new Padding(3, 4, 3, 4);
             passField.Name = "passField";
-            passField.Size = new Size(191, 48);
+            passField.Size = new Size(218, 58);
             passField.TabIndex = 4;
             passField.UseSystemPasswordChar = true;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources._lock;
-            pictureBox2.Location = new Point(66, 255);
+            pictureBox2.Location = new Point(75, 340);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(64, 64);
+            pictureBox2.Size = new Size(73, 85);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
@@ -114,17 +119,19 @@
             // loginField
             // 
             loginField.Font = new Font("Comic Sans MS", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            loginField.Location = new Point(148, 181);
+            loginField.Location = new Point(169, 241);
+            loginField.Margin = new Padding(3, 4, 3, 4);
             loginField.Name = "loginField";
-            loginField.Size = new Size(191, 48);
+            loginField.Size = new Size(218, 58);
             loginField.TabIndex = 2;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.user;
-            pictureBox1.Location = new Point(66, 173);
+            pictureBox1.Location = new Point(75, 231);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(64, 64);
+            pictureBox1.Size = new Size(73, 85);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -136,8 +143,9 @@
             panel2.Controls.Add(MainPanel);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(391, 100);
+            panel2.Size = new Size(447, 133);
             panel2.TabIndex = 0;
             // 
             // closeButton
@@ -146,9 +154,9 @@
             closeButton.Cursor = Cursors.Hand;
             closeButton.Font = new Font("Century", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             closeButton.ForeColor = Color.White;
-            closeButton.Location = new Point(361, 0);
+            closeButton.Location = new Point(413, 0);
             closeButton.Name = "closeButton";
-            closeButton.Size = new Size(30, 33);
+            closeButton.Size = new Size(35, 40);
             closeButton.TabIndex = 1;
             closeButton.Text = "х";
             closeButton.Click += closeButton_Click;
@@ -162,7 +170,7 @@
             MainPanel.ForeColor = Color.White;
             MainPanel.Location = new Point(0, 0);
             MainPanel.Name = "MainPanel";
-            MainPanel.Size = new Size(391, 100);
+            MainPanel.Size = new Size(447, 133);
             MainPanel.TabIndex = 0;
             MainPanel.Text = "Авторизация";
             MainPanel.TextAlign = ContentAlignment.MiddleCenter;
@@ -171,11 +179,12 @@
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(391, 450);
+            ClientSize = new Size(447, 600);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "LoginForm";
             Text = "LoginForm";
             panel1.ResumeLayout(false);
