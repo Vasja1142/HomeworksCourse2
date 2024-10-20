@@ -12,6 +12,11 @@ namespace WinForms
         public string Login { get; set; }
 
         [MaxLength(36)] // Длина хеша пароля (или пароля в открытом виде, что небезопасно).  255 - достаточная длина для большинства хешей.
-        public string Password { get; set; } //  Можно переименовать в PasswordHash, если используете BCrypt
+        public string Password { get; set; }
+        //  Можно переименовать в PasswordHash, если используете BCrypt
+        [MaxLength(100)]
+        public string Name { get; set; }
+        [MaxLength(100)]
+        public string Surname { get; set; }
     }
 }

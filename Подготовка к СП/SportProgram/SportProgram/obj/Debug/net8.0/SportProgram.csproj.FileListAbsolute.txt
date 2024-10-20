@@ -1,0 +1,29 @@
+C:\Users\vasja\source\repos\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.exe
+C:\Users\vasja\source\repos\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.deps.json
+C:\Users\vasja\source\repos\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.runtimeconfig.json
+C:\Users\vasja\source\repos\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.dll
+C:\Users\vasja\source\repos\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.pdb
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.AssemblyInfoInputs.cache
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.AssemblyInfo.cs
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.csproj.CoreCompileInputs.cache
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.dll
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\refint\SportProgram.dll
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.pdb
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.genruntimeconfig.cache
+C:\Users\vasja\source\repos\SportProgram\SportProgram\obj\Debug\net8.0\ref\SportProgram.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.exe
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.deps.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.runtimeconfig.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\bin\Debug\net8.0\SportProgram.pdb
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.AssemblyInfoInputs.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.AssemblyInfo.cs
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.csproj.CoreCompileInputs.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.sourcelink.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\refint\SportProgram.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.pdb
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\SportProgram.genruntimeconfig.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Подготовка к СП\SportProgram\SportProgram\obj\Debug\net8.0\ref\SportProgram.dll
