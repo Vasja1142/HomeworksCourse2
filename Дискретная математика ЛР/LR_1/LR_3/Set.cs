@@ -68,6 +68,39 @@ namespace LR_3
             return flag;
         }
 
+        internal bool isThereNum(int val)
+        {
+            bool flag = false;
+            foreach (int x in arr)
+            {
+                if (x == val)
+                {
+                    flag = true;
+
+                }
+            }
+            return flag;
+        }
+        internal bool isThereSet(Set set)
+        {
+            bool flag = true;
+            bool flag2 = true;
+            foreach (int x in arr)
+            {
+                flag = false;
+                foreach (int y in set.arr)
+                {
+                   
+                    if (x == y)
+                    {
+                        flag = true;
+                    }
+                }
+                if (!flag) flag2 = false;
+            }
+            return flag2;
+        }
+
         public bool pushBack(int val, int[] array)
         {
             bool flag2 = true;
@@ -102,7 +135,7 @@ namespace LR_3
         public bool pushBack(int min, int max)
         {
             Random random = new Random();
-            int val = random.Next(min, max);
+            int val = random.Next(min, max+1);
 
             bool flag = true;
             foreach (int x in arr)

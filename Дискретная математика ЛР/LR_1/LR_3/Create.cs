@@ -119,5 +119,6 @@ namespace LR_3
 
             return A;
         }
+
     }
 }

@@ -8,3 +8,13 @@ C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискрет
 C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SetCalculator.resources
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SetCalculator.resources
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

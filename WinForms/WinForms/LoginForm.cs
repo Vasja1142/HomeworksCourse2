@@ -54,6 +54,12 @@ namespace WinForms
                 return;
             }
 
+            if (string.IsNullOrEmpty(passUser) || passUser.Length > 36 || !passUser.All(char.IsLetterOrDigit))
+            {
+                MessageBox.Show("Неверный формат пароля");
+                return;
+            }
+
             using (ApplicationContext db = new ApplicationContext())
             {
                 // Находим пользователя по логину
@@ -89,9 +95,9 @@ namespace WinForms
                 return;
             }
 
-            if (string.IsNullOrEmpty(loginUser) || string.IsNullOrEmpty(passUser))
+            if (string.IsNullOrEmpty(passUser) || passUser.Length > 36 || !passUser.All(char.IsLetterOrDigit))
             {
-                MessageBox.Show("Поля не могут быть пустыми.");
+                MessageBox.Show("Неверный формат пароля");
                 return;
             }
 
