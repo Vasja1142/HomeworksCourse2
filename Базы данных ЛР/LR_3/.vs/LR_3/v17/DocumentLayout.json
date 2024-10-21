@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_3\\lr_3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_3\\lr_3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_3\\lr_3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_3\\lr_3\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_3\\lr_3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\App.xaml",
+              "RelativeDocumentMoniker": "LR_3\\App.xaml",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\App.xaml",
+              "RelativeToolTip": "LR_3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T09:30:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\DB.cs",
+              "RelativeDocumentMoniker": "LR_3\\DB.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\DB.cs",
+              "RelativeToolTip": "LR_3\\DB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:15:35.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\Person.cs",
+              "RelativeDocumentMoniker": "LR_3\\Person.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\Person.cs",
+              "RelativeToolTip": "LR_3\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:14:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LR_3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\MainWindow.xaml",
+              "RelativeToolTip": "LR_3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T08:30:33.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LR_3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_3\\LR_3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LR_3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T08:30:30.54Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

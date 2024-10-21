@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\winforms\\winforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|solutionrelative:winforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\winforms\\winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|solutionrelative:winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\winforms\\winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|solutionrelative:winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\winforms\\winforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|solutionrelative:winforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{875A6749-403C-42C0-A1E9-A77E487EEC40}|WinForms\\WinForms.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\winforms\\winforms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,11 +52,24 @@
         },
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\Program.cs",
+              "RelativeDocumentMoniker": "WinForms\\Program.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\Program.cs*",
+              "RelativeToolTip": "WinForms\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T08:27:44.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RegisterForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\RegisterForm.Designer.cs",
               "RelativeDocumentMoniker": "WinForms\\RegisterForm.Designer.cs",
@@ -77,20 +94,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\User.cs",
               "RelativeDocumentMoniker": "WinForms\\User.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\User.cs*",
-              "RelativeToolTip": "WinForms\\User.cs*",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\User.cs",
+              "RelativeToolTip": "WinForms\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T15:47:09.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T15:47:09.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\RegisterForm.cs",
               "RelativeDocumentMoniker": "WinForms\\RegisterForm.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RegisterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\RegisterForm.cs",
               "RelativeDocumentMoniker": "WinForms\\RegisterForm.cs",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\WinForms\\WinForms\\LoginForm.cs",
               "RelativeDocumentMoniker": "WinForms\\LoginForm.cs",
@@ -123,8 +139,7 @@
               "RelativeToolTip": "WinForms\\LoginForm.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAuwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T17:21:38.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T17:21:38.868Z"
             }
           ]
         }
