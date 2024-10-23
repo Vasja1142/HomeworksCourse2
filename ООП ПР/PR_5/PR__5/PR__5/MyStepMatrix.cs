@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PR__5
 {
-    internal class MyStepMatrix:MyArray
+    internal class MyStepMatrix : MyArray
     {
         internal static new int[][] CreateConsole()
         {
@@ -28,7 +28,7 @@ namespace PR__5
                 }
                 matr[i] = new int[colums];
             }
-            
+
 
 
             for (int i = 0; i < rows; i++)
@@ -51,7 +51,7 @@ namespace PR__5
                 Console.WriteLine("Введите положительное число!");
                 rows = ConsoleTryParse($"Введите количество строк: ");
             }
-         
+
             int[][] matr = new int[rows][];
             int colums;
             for (int i = 0; i < rows; i++)
@@ -84,10 +84,36 @@ namespace PR__5
             }
             return matr;
         }
+        public static int[][] DeleteNullRow(int[][] arr)
+        {
+            bool isNotNull;
+            bool isDeleteRow = false;
+            int[][] newArr = new int[arr.Length - 1][];
+            int indexNewArr = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                
+                isNotNull = true;
+                for (global::System.Int32 j = 0; j < arr[i].Length; j++)
+                {
+                    if (arr[i][j] == 0)
+                    {
+                        isNotNull = false;
+                    }
+                }
+                if (!isDeleteRow && arr.Length - i == 1 && isNotNull) return arr;
+                if (isNotNull || isDeleteRow) {
+                    newArr[indexNewArr++] = arr[i];
+                }
+                else  isDeleteRow = true;
+                
+            }
+            return newArr;
+        }
 
         public static void Print(int[][] arr)
         {
-            int rows = arr.GetUpperBound(0) + 1;   
+            int rows = arr.Length;   
             int columns;
             for (int i = 0; i < rows; i++)
             {

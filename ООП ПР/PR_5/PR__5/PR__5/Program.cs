@@ -1,5 +1,6 @@
 ﻿using PR__5;
 
+
 class Program
 {
     public static void Main()
@@ -117,7 +118,7 @@ class Program
         string message = "1. Создать массив вручную\n" +
                             "2  Создать массив с помощью ДСЧ\n" +
                             "3. Вывести массив\n" +
-                            "4. Удалить все четные элементы\n" +
+                            "4. Удалить первую строку, в которой встречаются нули\n" +
                             "5. Выход";
 
         bool isRunProgram = true;
@@ -139,7 +140,7 @@ class Program
                     else Console.WriteLine("Массив пустой");
                     break;
                 case 4:
-                    
+                    arr = MyStepMatrix.DeleteNullRow(arr);
                     break;
                 case 5:
                     isRunProgram = false;
