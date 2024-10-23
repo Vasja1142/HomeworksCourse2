@@ -80,6 +80,17 @@ namespace PR__5
             }
             Console.WriteLine("}");
         }
+
+        public static int[] DeleteEvenNumbers(int[] arr)
+        {
+            int[] newArr = new int[(arr.Length )/2];
+            int counter = 0;
+            for (int i = 1; i < arr.Length; i+=2)
+            {
+                newArr[counter++] = arr[i];
+            }
+            return newArr;
+        }
     }
    
 }

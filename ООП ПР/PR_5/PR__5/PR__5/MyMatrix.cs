@@ -74,6 +74,43 @@ namespace PR__5
             return matr;
         }
 
+        public static int[,] AdditionMatrix( int[,] matrix)
+        {
+            int rows = ConsoleTryParse($"Введите количество строк: ");
+            while (rows < 0)
+            {
+                Console.WriteLine("Введите положительное число!");
+                rows = ConsoleTryParse($"Введите количество строк: ");
+            }
+
+            int newRows = rows + matrix.GetUpperBound(0) + 1;
+            int newColums = matrix.Length / (matrix.GetUpperBound(0) + 1);
+            int[,] newMatr = new int[newRows, newColums];
+
+            for (int i = 0; i < newRows; i++)
+            {
+                for (global::System.Int32 j = 0; j < newColums; j++)
+                {
+                    if (i < matrix.GetUpperBound(0) + 1)
+                    {
+                        
+                       
+                            newMatr[i, j] = matrix[i, j];
+                        
+                    }
+                    else
+                    {
+                        
+
+                            newMatr[i, j] = ConsoleTryParse($"Введите [{i + 1}, {j + 1}] значение матрицы:");
+
+                    }
+                }
+                
+            }
+            return newMatr;
+        }
+
         public static void Print(int[,] arr)
         {
             int rows = arr.GetUpperBound(0) + 1;    // количество строк

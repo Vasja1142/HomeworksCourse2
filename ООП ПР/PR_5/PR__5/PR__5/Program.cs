@@ -8,21 +8,20 @@ class Program
                             "2. Работа с двумерным массивом\n" +
                             "3. Работа с рваным массивом\n" +
                             "4. Выход";
-        int numMode = ConsoleTryParse(message);
+        int numMode;
         bool isRunProgram = true;
         while (isRunProgram)
         {
-            switch(numMode){
+            numMode = ConsoleTryParse(message);
+            switch (numMode){
                 case 1:
                     WorkArr();
                     break;
                 case 2:
-                    MyMatrix.Print(MyMatrix.CreateConsole());
-                    MyMatrix.Print(MyMatrix.CreateRandom());
+                    WorkMatrix();
                     break;
                 case 3:
-                    MyStepMatrix.Print(MyStepMatrix.CreateConsole());
-                    MyStepMatrix.Print(MyStepMatrix.CreateRandom());
+                    WorkStepMatrix();
                     break;
                 case 4:
                     isRunProgram = false;
@@ -43,11 +42,12 @@ class Program
                             "4. Удалить все четные элементы\n" +
                             "5. Выход";
 
-        int numMode = ConsoleTryParse(message);
         bool isRunProgram = true;
-        int[] arr;
+        int numMode;
+        int[] arr = { };
         while (isRunProgram)
         {
+            numMode = ConsoleTryParse(message);
             switch (numMode)
             {
                 case 1:
@@ -57,9 +57,11 @@ class Program
                     arr = MyArray.CreateRandom();
                     break;
                 case 3:
-                    if (arr) MyStepMatrix.Print(arr);
+                    if (arr.Length != 0) MyArray.Print(arr);
+                    else Console.WriteLine("Массив пустой");               
                     break;
                 case 4:
+                    arr = MyArray.DeleteEvenNumbers(arr);
                     break;
                 case 5:
                     isRunProgram = false;
@@ -69,11 +71,86 @@ class Program
                     break;
             }
         }
-        Console.WriteLine(message);
-        
-        MyArray.Print();
-        MyArray.Print(MyArray.CreateRandom());
     }
+
+    internal static void WorkMatrix()
+    {
+        string message = "1. Создать массив вручную\n" +
+                            "2  Создать массив с помощью ДСЧ\n" +
+                            "3. Вывести массив\n" +
+                            "4. Добавить К строк в конец матрицы\n" +
+                            "5. Выход";
+
+        bool isRunProgram = true;
+        int numMode;
+        int[,] arr = { };
+        while (isRunProgram)
+        {
+            numMode = ConsoleTryParse(message);
+            switch (numMode)
+            {
+                case 1:
+                    arr = MyMatrix.CreateConsole();
+                    break;
+                case 2:
+                    arr = MyMatrix.CreateRandom();
+                    break;
+                case 3:
+                    if (arr.Length != 0) MyMatrix.Print(arr);
+                    else Console.WriteLine("Массив пустой");
+                    break;
+                case 4:
+                    arr = MyMatrix.AdditionMatrix(arr);
+                    break;
+                case 5:
+                    isRunProgram = false;
+                    break;
+                default:
+                    Console.WriteLine("Введено неверное значение");
+                    break;
+            }
+        }
+    }
+
+    internal static void WorkStepMatrix()
+    {
+        string message = "1. Создать массив вручную\n" +
+                            "2  Создать массив с помощью ДСЧ\n" +
+                            "3. Вывести массив\n" +
+                            "4. Удалить все четные элементы\n" +
+                            "5. Выход";
+
+        bool isRunProgram = true;
+        int numMode;
+        int[][] arr = { };
+        while (isRunProgram)
+        {
+            numMode = ConsoleTryParse(message);
+            switch (numMode)
+            {
+                case 1:
+                    arr = MyStepMatrix.CreateConsole();
+                    break;
+                case 2:
+                    arr = MyStepMatrix.CreateRandom();
+                    break;
+                case 3:
+                    if (arr.Length != 0) MyStepMatrix.Print(arr);
+                    else Console.WriteLine("Массив пустой");
+                    break;
+                case 4:
+                    
+                    break;
+                case 5:
+                    isRunProgram = false;
+                    break;
+                default:
+                    Console.WriteLine("Введено неверное значение");
+                    break;
+            }
+        }
+    }
+
 
     internal static int ConsoleTryParse(string message)
     {
