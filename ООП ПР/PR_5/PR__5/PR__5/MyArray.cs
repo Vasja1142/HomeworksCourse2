@@ -85,12 +85,25 @@ namespace PR__5
 
         public static int[] DeleteEvenNumbers(int[] arr)
         {
-            int[] newArr = new int[(arr.Length )/2];
             int counter = 0;
-            for (int i = 1; i < arr.Length; i+=2)
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                newArr[counter++] = arr[i];
+                if (arr[i]%2 != 0)
+                {
+                    counter++;
+                }
             }
+            int[] newArr = new int[counter];
+            int index = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] % 2 != 0)
+                {
+                    newArr[index++] = arr[i];
+                }
+            }
+
             return newArr;
         }
     }
