@@ -4,8 +4,13 @@
 class Program
 {
     public static void Main()
-    {       
-        string message =    "1. Работа с одномерным массивом\n" +
+    {
+        ConsoleProgram();
+        
+    }
+    internal static void ConsoleProgram()
+    {
+        string message = "1. Работа с одномерным массивом\n" +
                             "2. Работа с двумерным массивом\n" +
                             "3. Работа с рваным массивом\n" +
                             "4. Выход";
@@ -14,7 +19,8 @@ class Program
         while (isRunProgram)
         {
             numMode = ConsoleTryParse(message);
-            switch (numMode){
+            switch (numMode)
+            {
                 case 1:
                     WorkArr();
                     break;
@@ -32,7 +38,6 @@ class Program
                     break;
             }
         }
-        
     }
 
     internal static void WorkArr()
@@ -166,8 +171,5 @@ class Program
         }
         return val;
     }
-
-
-
 }
 
