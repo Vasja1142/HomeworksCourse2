@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace PR__5
 {
-    internal class MyArray
+    public class MyArray
     {
-        internal static int[] CreateConsole()
+        public static int[] CreateConsole()
         {
             int count = ConsoleTryParse($"Введите длину множества целочисленных значений: ");
             while (count < 0)
@@ -26,7 +26,7 @@ namespace PR__5
             return arr;
         }
 
-        internal static int[] CreateRandom() {
+        public static int[] CreateRandom() {
 
             int lenghtArr = ConsoleTryParse($"Введите длину множества целочисленных значений: ");
             while (lenghtArr < 0)
@@ -56,7 +56,7 @@ namespace PR__5
             return arr;
         }
 
-        internal static int ConsoleTryParse(string message)
+        public static int ConsoleTryParse(string message)
         {
             int val;
             Console.WriteLine(message);
@@ -67,6 +67,8 @@ namespace PR__5
 
                 b = int.TryParse(Console.ReadLine(), out val);
             }
+
+
             return val;
         }
 

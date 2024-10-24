@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\pr__5\\mystepmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|solutionrelative:pr__5\\mystepmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{733DE6D2-B727-48B2-85ED-4698888ED28E}|TestProject\\TestProject.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\testproject\\mystepmatrixtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733DE6D2-B727-48B2-85ED-4698888ED28E}|TestProject\\TestProject.csproj|solutionrelative:testproject\\mystepmatrixtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733DE6D2-B727-48B2-85ED-4698888ED28E}|TestProject\\TestProject.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\testproject\\mymatrixtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733DE6D2-B727-48B2-85ED-4698888ED28E}|TestProject\\TestProject.csproj|solutionrelative:testproject\\mymatrixtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733DE6D2-B727-48B2-85ED-4698888ED28E}|TestProject\\TestProject.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\testproject\\myarraytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733DE6D2-B727-48B2-85ED-4698888ED28E}|TestProject\\TestProject.csproj|solutionrelative:testproject\\myarraytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\pr__5\\myarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|solutionrelative:pr__5\\myarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\pr__5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|solutionrelative:pr__5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\pr__5\\mymatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|solutionrelative:pr__5\\mymatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\pr__5\\mystepmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|solutionrelative:pr__5\\mystepmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_5\\pr__5\\pr__5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB096F20-9FAA-4617-BBB6-2D1B7B5E13A9}|PR__5\\PR__5.csproj|solutionrelative:pr__5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,54 +51,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyStepMatrix.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyStepMatrix.cs",
-              "RelativeDocumentMoniker": "PR__5\\MyStepMatrix.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyStepMatrix.cs*",
-              "RelativeToolTip": "PR__5\\MyStepMatrix.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowGcAAABEAAAAAAAAAA==",
+              "Title": "MyStepMatrixTests.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\TestProject\\MyStepMatrixTests.cs",
+              "RelativeDocumentMoniker": "TestProject\\MyStepMatrixTests.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\TestProject\\MyStepMatrixTests.cs*",
+              "RelativeToolTip": "TestProject\\MyStepMatrixTests.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:54:11.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyMatrix.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyMatrix.cs",
-              "RelativeDocumentMoniker": "PR__5\\MyMatrix.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyMatrix.cs",
-              "RelativeToolTip": "PR__5\\MyMatrix.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAwwGgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:38:26.001Z",
+              "WhenOpened": "2024-10-24T16:03:57.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyArray.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyArray.cs",
-              "RelativeDocumentMoniker": "PR__5\\MyArray.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyArray.cs",
-              "RelativeToolTip": "PR__5\\MyArray.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwFwAAAAIAAAAAAAAAA==",
+              "Title": "MyMatrixTests.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\TestProject\\MyMatrixTests.cs",
+              "RelativeDocumentMoniker": "TestProject\\MyMatrixTests.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\TestProject\\MyMatrixTests.cs",
+              "RelativeToolTip": "TestProject\\MyMatrixTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:26:27.564Z",
+              "WhenOpened": "2024-10-24T16:00:27.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MyArrayTests.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\TestProject\\MyArrayTests.cs",
+              "RelativeDocumentMoniker": "TestProject\\MyArrayTests.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\TestProject\\MyArrayTests.cs",
+              "RelativeToolTip": "TestProject\\MyArrayTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:19:07.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyStepMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyStepMatrix.cs",
+              "RelativeDocumentMoniker": "PR__5\\MyStepMatrix.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyStepMatrix.cs",
+              "RelativeToolTip": "PR__5\\MyStepMatrix.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:54:11.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyMatrix.cs",
+              "RelativeDocumentMoniker": "PR__5\\MyMatrix.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyMatrix.cs",
+              "RelativeToolTip": "PR__5\\MyMatrix.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAH4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:38:26.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyArray.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyArray.cs",
+              "RelativeDocumentMoniker": "PR__5\\MyArray.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyArray.cs",
+              "RelativeToolTip": "PR__5\\MyArray.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:26:27.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\Program.cs",
               "RelativeDocumentMoniker": "PR__5\\Program.cs",
               "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\Program.cs",
               "RelativeToolTip": "PR__5\\Program.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAIwI4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:59:03.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T04:59:03.526Z"
             }
           ]
         }

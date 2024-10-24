@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PR__5
 {
-    internal class MyStepMatrix : MyArray
+    public class MyStepMatrix : MyArray
     {
-        internal static new int[][] CreateConsole()
+        public static new int[][] CreateConsole()
         {
             int rows = ConsoleTryParse($"Введите количество строк: ");
             while (rows < 0)
@@ -42,7 +42,7 @@ namespace PR__5
             return matr;
         }
 
-        internal static new int[][] CreateRandom()
+        public static new int[][] CreateRandom()
         {
 
             int rows = ConsoleTryParse($"Введите количество строк: ");
