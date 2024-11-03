@@ -1,0 +1,86 @@
+﻿<Window x:Class="LR_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR_3"
+        mc:Ignorable="d"
+        Title="Database" Height="495" Width="483">
+    <Grid x:Name="MainRoot" Background="Yellow" Opacity="0.99" Cursor="Arrow">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="QueryTable" Content="Вывести таблицу" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="QueryTable_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="UpdatePerson" Content="Изменить записи" Cursor="Hand" Grid.Column="1" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="14" Click="UpdatePerson_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120" Height="25">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="QueryTable1" Content="Удалить записи" Cursor="Hand" Grid.Column="2" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="DeletePerson_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120" Height="25">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <DataGrid Name="QueryDataGrid" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="4" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="CreatePersonsTable" Content="Создать persons" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="CreateTableGordeevWithData_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="AddNewPerson" Content="Добавить запись" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="AddNewPerson_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="InnerJoinQuery" Content="Inner join" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="InnerJoinQuery_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="1" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="CreateDepartmentTable" Content="Создать department" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="CreateDepartmentsTableWithData_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+
+
+
+    </Grid>
+</Window>

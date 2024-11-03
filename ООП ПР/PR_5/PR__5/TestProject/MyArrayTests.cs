@@ -54,7 +54,7 @@ namespace PR_5.Tests
             // Создаем тестовый массив
             int[] arr = { 1, 2, 3, 4, 5 };
             // Ожидаемый результат после удаления четных элементов
-            int[] expected = { 2, 4 };
+            int[] expected = { 1, 3, 5 };
 
             // Вызываем тестируемый метод
             int[] result = MyArray.DeleteEvenNumbers(arr);

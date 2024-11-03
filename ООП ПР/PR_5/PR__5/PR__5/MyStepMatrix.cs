@@ -102,7 +102,8 @@ namespace PR__5
                     }
                 }
                 if (!isDeleteRow && arr.Length - i == 1 && isNotNull) return arr;
-                if (isNotNull || isDeleteRow) {
+                if (isNotNull || isDeleteRow) 
+                {
                     newArr[indexNewArr++] = arr[i];
                 }
                 else  isDeleteRow = true;

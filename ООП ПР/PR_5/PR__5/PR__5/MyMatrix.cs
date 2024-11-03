@@ -76,6 +76,11 @@ namespace PR__5
 
         public static int[,] AdditionMatrix( int[,] matrix)
         {
+            if (matrix.Length == 0)
+            {
+                int[,] newArr = CreateConsole();
+                return newArr;
+            }
             int rows = ConsoleTryParse($"Введите количество строк: ");
             while (rows < 0)
             {
@@ -87,26 +92,20 @@ namespace PR__5
             int newColums = matrix.Length / (matrix.GetUpperBound(0) + 1);
             int[,] newMatr = new int[newRows, newColums];
 
+
             for (int i = 0; i < newRows; i++)
             {
                 for (global::System.Int32 j = 0; j < newColums; j++)
                 {
                     if (i < matrix.GetUpperBound(0) + 1)
                     {
-                        
-                       
-                            newMatr[i, j] = matrix[i, j];
-                        
+                            newMatr[i, j] = matrix[i, j];                        
                     }
                     else
-                    {
-                        
-
+                    {                       
                             newMatr[i, j] = ConsoleTryParse($"Введите [{i + 1}, {j + 1}] значение матрицы:");
-
                     }
-                }
-                
+                }                
             }
             return newMatr;
         }

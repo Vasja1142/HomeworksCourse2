@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\datatables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\datatables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u043B\u0440\\lr_4\\lr_3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F2C863-A72F-45EA-A1B6-E511CFD4DB86}|LR_3\\LR_3.csproj|solutionrelative:lr_3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\DB.cs",
+              "RelativeDocumentMoniker": "LR_3\\DB.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\DB.cs",
+              "RelativeToolTip": "LR_3\\DB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:15:35.94Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LR_3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LR_3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAswPYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:44:50.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataTables.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\DataTables.cs",
+              "RelativeDocumentMoniker": "LR_3\\DataTables.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\DataTables.cs",
+              "RelativeToolTip": "LR_3\\DataTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:07:49.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\Department.cs",
+              "RelativeDocumentMoniker": "LR_3\\Department.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\Department.cs",
+              "RelativeToolTip": "LR_3\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:05:32.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "LR_3\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\AssemblyInfo.cs",
+              "RelativeToolTip": "LR_3\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T13:40:14.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LR_3\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\App.xaml.cs",
+              "RelativeToolTip": "LR_3\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:07:46.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\Person.cs",
+              "RelativeDocumentMoniker": "LR_3\\Person.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\Person.cs",
+              "RelativeToolTip": "LR_3\\Person.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:14:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LR_3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 \u041B\u0420\\LR_4\\LR_3\\MainWindow.xaml",
+              "RelativeToolTip": "LR_3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T08:30:33.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

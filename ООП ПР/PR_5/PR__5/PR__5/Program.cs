@@ -145,8 +145,10 @@ class Program
                     else Console.WriteLine("Массив пустой");
                     break;
                 case 4:
-                    arr = MyStepMatrix.DeleteNullRow(arr);
+                    if (arr.Length != 0) arr = MyStepMatrix.DeleteNullRow(arr);
+                    else Console.WriteLine("Массив пустой");
                     break;
+                  
                 case 5:
                     isRunProgram = false;
                     break;
