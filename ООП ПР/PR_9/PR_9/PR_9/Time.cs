@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PR_9
+{
+    internal class Time
+    {
+        private int hours;
+        private int minutes;
+
+        internal Time(int h, int m)
+        {
+            if (m < 0)
+            {
+                h += (m / 60) - 1;
+                m = 60 + (m % 60);
+            }
+            else if (m > 59)
+            {
+                h += m / 60;
+                m = m % 60;
+            }
+            if (h < 0)
+            {
+                h = 0;
+                m = 0;
+            }
+            hours = h;
+            minutes = m;
+        }
+
+        internal int GetHours() => hours;
+        internal int GetMinutes() => minutes;
+
+        private void SetHours(int h) {
+            if (h < 0)
+            {
+                hours = 0;
+            }
+            else
+            {
+                hours = h;
+            }
+        }
+
+        private void SetMinutes(int m)
+        {
+            Time t = new Time(hours, m);
+            minutes = t.GetMinutes();
+            hours = t.GetHours();
+        }
+        public static Time operator --(Time a)
+        {
+            int m = a.GetMinutes();
+            a.SetMinutes(--m);
+            return a;
+        }
+
+        public static Time operator ++(Time a)
+        {
+            int m = a.GetMinutes();
+            a.SetMinutes(++m);
+            return a;
+        }
+
+        public static Time operator -(Time a, Time b)
+        {
+            int h = a.GetHours() - b.GetHours();
+            int m = a.GetMinutes() - b.GetMinutes();
+            return new Time(h, m);
+        }
+        
+
+        public override string ToString()
+        {
+            return $"{hours}:{minutes}";
+        }
+
+    }
+}

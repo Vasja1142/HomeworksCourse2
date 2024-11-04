@@ -54,7 +54,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="AddNewPerson" Content="Добавить запись" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="AddNewPerson_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+        <Button x:Name="AddNewPerson" Content="Добавить запись" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="AddNewPerson_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="2" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFABEDAC"/>
@@ -71,6 +71,14 @@
             </Button.Background>
         </Button>
         <Button x:Name="CreateDepartmentTable" Content="Создать department" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="CreateDepartmentsTableWithData_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFABEDAC"/>
+                    <GradientStop Color="#FFE6FBE7" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DeletePersonsTable" Content="Создать persons" Cursor="Hand" FontFamily="Comic Sans MS" FontSize="14" FontStyle="Italic" Click="DeletePersonsTable_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="120" Grid.Row="1" Grid.Column="1">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFABEDAC"/>

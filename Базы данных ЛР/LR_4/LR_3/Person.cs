@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace LR_3
 {
+    [Table("table_gordeev")]
     internal class Person
     {
         [Column("id")]

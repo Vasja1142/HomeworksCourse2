@@ -53,30 +53,116 @@ namespace LR_3
 
         private void CreateTableGordeevWithData_Click(object sender, RoutedEventArgs e)
         {
-            using (var context = new ApplicationContext())
+            try
             {
-
-                if (context.Persons.Any())
+                using (var context = new ApplicationContext())
                 {
-                    MessageBox.Show("Таблица table_gordeev уже существует.");
-                    return; // Выходим из метода, если таблица существует
+                    // 1. Сначала создаем таблицу
+                    context.Database.EnsureCreated();
+
+
+                    // 1. Проверка существования таблицы Persons (table_gordeev)
+                    if (context.Persons.Any())
+                    {
+                        MessageBox.Show("Таблица table_gordeev уже существует.");
+                        return;
+                    }
+
+                    // 2. Проверка существования таблицы Departments
+                    if (!context.Departments.Any())
+                    {
+                        MessageBox.Show("Таблица Departments не существует. Создайте её перед добавлением данных в table_gordeev.");
+                        return;
+                    }
+
+                    // 3. EnsureCreated() в отдельном контексте для избежания проблем с кэшем
+                    context.Database.EnsureCreated();
+
+                    // 4. Получение данных для добавления
+                    var persons = DataTables.AddDataPersons();
+
+                    // 5. Проверка DepartmentId перед добавлением Person
+                    foreach (var person in persons)
+                    {
+                        if (!context.Departments.Any(d => d.Id == person.DepartmentId))
+                        {
+                            MessageBox.Show($"Отдел с ID {person.DepartmentId} не существует. Исправьте данные перед добавлением.");
+                            return;
+                        }
+                    }
+
+
+                    // 6. Добавление данных и сохранение изменений с обработкой исключений
+                    try
+                    {
+                        context.Persons.AddRange(persons);
+                        context.SaveChanges();
+                        MessageBox.Show("Таблица table_gordeev создана и данные добавлены.");
+                    }
+                    catch (Exception saveEx)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении данных: {saveEx.Message}\n\n{saveEx.InnerException?.Message}"); // Вывод внутренней ошибки, если есть
+                    }
                 }
 
 
-                context.Database.EnsureCreated(); // <- Создать таблицу ДО добавления данных
-
-
-                // Пример данных для table_gordeev (добавьте свои данные)
-                var persons = DataTables.AddDataPersons();
-
-                context.Persons.AddRange(persons);
-                context.SaveChanges();
-                MessageBox.Show("Таблица table_gordeev создана и данные добавлены.");
-
-
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}\n\n{ex.InnerException?.Message}"); // Вывод внутренней ошибки
             }
         }
+        private void DeleteDepartmentsTable_Click(object sender, RoutedEventArgs e)
+        {
+            using (var context = new ApplicationContext())
+            {
+                try
+                {
+                    // Проверяем, существует ли таблица
+                    if (!context.Departments.Any())
+                    {
+                        MessageBox.Show("Таблица Departments не существует.");
+                        return;
+                    }
+
+                    context.Database.ExecuteSqlRaw("DROP TABLE departments"); // Удаляем таблицу departments
+                    MessageBox.Show("Таблица Departments удалена.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка: {ex.Message}");
+                }
+            }
+        }
+
+        private void DeletePersonsTable_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                using (var context = new ApplicationContext()) // Первый контекст для удаления таблицы
+                {
+                    if (!context.Persons.Any())
+                    {
+                        MessageBox.Show("Таблица table_gordeev не существует.");
+                        return;
+                    }
+
+                    context.Database.ExecuteSqlRaw("DROP TABLE table_gordeev");
+                    MessageBox.Show("Таблица table_gordeev удалена.");
+                } // context.Dispose() вызывается автоматически здесь
+
+                using (var context = new ApplicationContext()) // Новый контекст для создания таблицы
+                {
+                    context.Database.EnsureCreated();
+                    MessageBox.Show("Таблица table_gordeev создана."); // Добавлено сообщение об успешном создании
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}");
+            }
+        }
+
 
         private void QueryTable_Click(object sender, RoutedEventArgs e)
         {
@@ -147,7 +233,6 @@ namespace LR_3
         }
 
 
-        // Примеры DML команд (INSERT, UPDATE, DELETE, SELECT) + INNER JOIN
         private void InnerJoinQuery_Click(object sender, RoutedEventArgs e)
         {
 
