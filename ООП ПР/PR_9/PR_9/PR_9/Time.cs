@@ -45,7 +45,14 @@ namespace PR_9
                 hours = h;
             }
         }
-
+        public int GetAllMinutes()
+        {
+            return minutes + hours*60;
+        }
+        public bool IsNotNull()
+        {
+            return minutes + hours != 0;
+        }
         private void SetMinutes(int m)
         {
             Time t = new Time(hours, m);
@@ -72,7 +79,15 @@ namespace PR_9
             int m = a.GetMinutes() - b.GetMinutes();
             return new Time(h, m);
         }
-        
+
+        public static bool operator >(Time a, Time b)
+        {
+            return a.GetAllMinutes() > b.GetAllMinutes();
+        }
+        public static bool operator <(Time a, Time b)
+        {
+            return a.GetAllMinutes() < b.GetAllMinutes();
+        }
 
         public override string ToString()
         {
