@@ -13,3 +13,18 @@ C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj
 C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.pdb
 C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.genruntimeconfig.cache
 C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\ref\PR_9.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.AssemblyInfoInputs.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.AssemblyInfo.cs
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.csproj.CoreCompileInputs.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.sourcelink.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\refint\PR_9.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.pdb
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\bin\Debug\net8.0\PR_9.exe
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\bin\Debug\net8.0\PR_9.deps.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\bin\Debug\net8.0\PR_9.runtimeconfig.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\bin\Debug\net8.0\PR_9.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\bin\Debug\net8.0\PR_9.pdb
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\PR_9.genruntimeconfig.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_9\PR_9\PR_9\obj\Debug\net8.0\ref\PR_9.dll
