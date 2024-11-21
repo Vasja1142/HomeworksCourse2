@@ -30,7 +30,7 @@ namespace PR_9
             times = new Time[len];
             for (int i = 0; i < len; i++)
             {
-                times[i] = new Time(rand.Next(min, max));
+                times[i] = new Time(rand.Next(min, max+1));
             }
         }
 
@@ -40,7 +40,7 @@ namespace PR_9
             {
                 if (index < 0 || index >= times.Length)
                 {
-                    throw new IndexOutOfRangeException();
+                    throw new ArgumentException();
                 }
                 return times[index];
             }
@@ -48,7 +48,7 @@ namespace PR_9
             {
                 if (index < 0 || index >= times.Length)
                 {
-                    throw new IndexOutOfRangeException();
+                    throw new ArgumentException();
                 }
                 times[index] = value;
             }
@@ -63,10 +63,10 @@ namespace PR_9
         public override string ToString()
         {
             string str = "";
-            int counter = 0;
+            int counter = 1;
             foreach (var time in times)
             {
-                str += $"{counter}-е значение времени: {time.ToString()}\n";
+                str += $"{counter++}-е значение времени: {time}\n";
             }
             return str; 
         }

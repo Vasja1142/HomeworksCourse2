@@ -16,7 +16,7 @@ namespace PR_9
 
             TimeArray timeArray = new TimeArray(timeArraySize);
             for (int i = 0; i < timeArraySize; i++) {
-                timeArray[i] = CreateTime(i);
+                timeArray[i] = CreateTime(1+i);
             }
             return timeArray;
         }
@@ -27,9 +27,10 @@ namespace PR_9
             string errorMessage = "Введено отрицательное значение. Введите корректное время:";           
             return new Time(ImputPositiveNumber(message, errorMessage));
         }
+    
 
 
-        public static int ImputPositiveNumber(string message, string errorMessage) {
+        public static int ImputPositiveNumber(string message, string errorMessage = "Введите положительное число: ") {
             Console.WriteLine(message);
             int num = ImputInt();
             while (num < 0)
@@ -43,14 +44,27 @@ namespace PR_9
         public static int ImputInt()
         {
             int time;
-            bool isNumTime = int.TryParse(Console.ReadLine(), out time);
-            while (isNumTime)
+            bool isIntTime = int.TryParse(Console.ReadLine(), out time);
+            while (!isIntTime)
             {
                 Console.WriteLine("Введено не целочисленное значение!");
-                isNumTime = int.TryParse(Console.ReadLine(), out time);
+                isIntTime = int.TryParse(Console.ReadLine(), out time);
             }
             return time;
         }
+
+        public static TimeArray CreateRandomTimeArray()
+        {
+            int len = ImputPositiveNumber("Введите длину массива: ");
+            int min = ImputPositiveNumber("Введите минимальное число минут: ");
+            int max = ImputPositiveNumber("Введите максимальное число минут: ");
+            while (min>max)
+            {
+                max = ImputPositiveNumber("Максимальное число должно быть больше или равно минимальному.\nВведите максимальное число времени: ");
+            }
+            return new TimeArray(min, max, len);
+        }
+
 
     }
 }

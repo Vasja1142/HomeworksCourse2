@@ -39,6 +39,12 @@ namespace PR_9
             minutes = t.GetMinutes();
         }
 
+        public Time(Time time)
+        {
+            hours = time.GetHours();
+            minutes = time.GetMinutes();
+        }
+
         internal int GetHours() => hours;
         internal int GetMinutes() => minutes;
 
@@ -100,6 +106,8 @@ namespace PR_9
 
         public override string ToString()
         {
+            if (minutes < 10)
+                return $"{hours}:0{minutes}";
             return $"{hours}:{minutes}";
         }
 
