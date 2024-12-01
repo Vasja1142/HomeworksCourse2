@@ -5,7 +5,7 @@
 //(использовать индексатор и, если необходимо, перегрузить нужные для выполнения задачи операции).
 
 
-internal class Program
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -74,7 +74,7 @@ internal class Program
             }
         }
     }
-    internal static TimeArray WorkWithTime(Time t1, Time t2)
+    public static TimeArray WorkWithTime(Time t1, Time t2)
     {
         string message = "1. Вычитание\n" +
                              "2. Увеличить первое значение на 1\n" +
@@ -83,7 +83,7 @@ internal class Program
                              "5. Вывести булевые значения времени\n" +
                              "6. Бинарные операции\n" +
                              "7. Вывести текущие значения\n" +
-                             "8. Выход";
+                             "8. Назад";
         int numMode;
         bool isRunProgram = true;
         while (isRunProgram)

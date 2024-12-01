@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace PR_9
 {
-    internal class Time
+    public class Time
     {
         private int hours;
         private int minutes;
 
-        internal Time(int h, int m)
+        public Time(int h, int m)
         {
             if (m < 0)
             {
@@ -32,7 +32,7 @@ namespace PR_9
             minutes = m;
         }
 
-        internal Time(int m)
+        public Time(int m)
         {
             Time t = new Time(0, m);
             hours = t.GetHours();
@@ -45,8 +45,8 @@ namespace PR_9
             minutes = time.GetMinutes();
         }
 
-        internal int GetHours() => hours;
-        internal int GetMinutes() => minutes;
+        public int GetHours() => hours;
+        public int GetMinutes() => minutes;
 
         private void SetHours(int h) {
             if (h < 0)

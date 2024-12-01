@@ -8,23 +8,23 @@ using System.Threading.Tasks;
 namespace PR_9
 {
     
-    internal class TimeArray
+    public class TimeArray
     {
         private Time[] times;
-        internal TimeArray(Time[] times)
+        public TimeArray(Time[] times)
         {
             this.times = times;
         }
-        internal TimeArray()
+        public TimeArray()
         {
             times = [];
         }
-        internal TimeArray(int len)
+        public TimeArray(int len)
         {
             times = new Time[len];
         }
 
-        internal TimeArray(int min, int max, int len)
+        public TimeArray(int min, int max, int len)
         {
             var rand = new Random();
             times = new Time[len];

@@ -38,11 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -54,8 +58,7 @@
               "RelativeToolTip": "PR__5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T12:39:03.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T12:39:03.276Z"
             },
             {
               "$type": "Document",
@@ -67,8 +70,7 @@
               "RelativeToolTip": "TestProject\\MyStepMatrixTests.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAowAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:03:57.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T16:03:57.151Z"
             },
             {
               "$type": "Document",
@@ -102,7 +104,7 @@
               "RelativeDocumentMoniker": "PR__5\\MyStepMatrix.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_5\\PR__5\\PR__5\\MyStepMatrix.cs",
               "RelativeToolTip": "PR__5\\MyStepMatrix.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAwwGkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowGkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T17:54:11.315Z",
               "EditorCaption": ""
@@ -117,8 +119,7 @@
               "RelativeToolTip": "PR__5\\MyMatrix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:38:26.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:38:26.001Z"
             },
             {
               "$type": "Document",
@@ -130,8 +131,7 @@
               "RelativeToolTip": "PR__5\\MyArray.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAowEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:26:27.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T08:26:27.564Z"
             }
           ]
         }
