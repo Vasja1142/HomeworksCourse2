@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DC3B48D-9DD7-40B9-A19F-6F437DB673F1}|TestProject\\TestProject.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_9\\pr_9\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DC3B48D-9DD7-40B9-A19F-6F437DB673F1}|TestProject\\TestProject.csproj|solutionrelative:testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_9\\pr_9\\pr_9\\consoleinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|solutionrelative:pr_9\\consoleinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_9\\pr_9\\pr_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|solutionrelative:pr_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_9\\pr_9\\pr_9\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|solutionrelative:pr_9\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC3B48D-9DD7-40B9-A19F-6F437DB673F1}|TestProject\\TestProject.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_9\\pr_9\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC3B48D-9DD7-40B9-A19F-6F437DB673F1}|TestProject\\TestProject.csproj|solutionrelative:testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|c:\\users\\\u0432\u0430\u0441\u0438\u043B\u0438\u0439\\desktop\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_9\\pr_9\\pr_9\\consoleinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF252946-0761-4BF5-B3B6-CCCC8705EE36}|PR_9\\PR_9.csproj|solutionrelative:pr_9\\consoleinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,65 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\TestProject\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\TestProject\\UnitTest1.cs",
               "RelativeToolTip": "TestProject\\UnitTest1.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAkwBgBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T07:54:53.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ConsoleInterface.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\ConsoleInterface.cs",
               "RelativeDocumentMoniker": "PR_9\\ConsoleInterface.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\ConsoleInterface.cs",
               "RelativeToolTip": "PR_9\\ConsoleInterface.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:42:46.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TimeArray.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\TimeArray.cs",
               "RelativeDocumentMoniker": "PR_9\\TimeArray.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\TimeArray.cs",
               "RelativeToolTip": "PR_9\\TimeArray.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T12:33:58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Time.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs",
               "RelativeDocumentMoniker": "PR_9\\Time.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs",
               "RelativeToolTip": "PR_9\\Time.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwG8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwGQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T08:55:16.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Program.cs",
               "RelativeDocumentMoniker": "PR_9\\Program.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Program.cs",
               "RelativeToolTip": "PR_9\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwEwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T08:54:14.939Z",
               "EditorCaption": ""

@@ -55,7 +55,7 @@ namespace PR_9
         }
         public int Count
         {
-            get { return times.Length; }
+            get { return times.Count(); }
         }
 
         

@@ -16,8 +16,8 @@ namespace TestsProject
             Time time = new Time(minutes);
 
             // Assert
-            Assert.AreEqual(2, time.GetHours());
-            Assert.AreEqual(0, time.GetMinutes());
+            Assert.AreEqual(2, time.Hours);
+            Assert.AreEqual(0, time.Minutes);
         }
 
         [TestMethod]
@@ -30,8 +30,8 @@ namespace TestsProject
             Time time = new Time(minutes);
 
             // Assert
-            Assert.AreEqual(0, time.GetHours());
-            Assert.AreEqual(0, time.GetMinutes()); // Negative time should become 0:00
+            Assert.AreEqual(0, time.Hours);
+            Assert.AreEqual(0, time.Minutes); 
         }
 
         [TestMethod]
@@ -45,8 +45,8 @@ namespace TestsProject
             Time time = new Time(hours, minutes);
 
             // Assert
-            Assert.AreEqual(1, time.GetHours());
-            Assert.AreEqual(30, time.GetMinutes());
+            Assert.AreEqual(1, time.Hours);
+            Assert.AreEqual(30, time.Minutes);
         }
 
         public void Time_Constructor_Reference()
@@ -90,8 +90,8 @@ namespace TestsProject
             time++;
 
             // Assert
-            Assert.AreEqual(1, time.GetHours());
-            Assert.AreEqual(31, time.GetMinutes());
+            Assert.AreEqual(1, time.Hours);
+            Assert.AreEqual(31, time.Minutes);
         }
 
         [TestMethod]
@@ -104,11 +104,10 @@ namespace TestsProject
             time--;
 
             // Assert
-            Assert.AreEqual(1, time.GetHours());
-            Assert.AreEqual(29, time.GetMinutes());
+            Assert.AreEqual(1, time.Hours);
+            Assert.AreEqual(29, time.Minutes);
         }
 
-        // TODO: Test Decrement Operator when minutes goes below zero (should reduce hours)
 
 
         [TestMethod]
@@ -122,11 +121,10 @@ namespace TestsProject
             Time result = time1 - time2;
 
             // Assert
-            Assert.AreEqual(1, result.GetHours());
-            Assert.AreEqual(15, result.GetMinutes());
+            Assert.AreEqual(1, result.Hours);
+            Assert.AreEqual(15, result.Minutes);
         }
 
-        // TODO: Test Subtraction Operator when result is negative (should handle correctly)
 
 
 
@@ -226,7 +224,7 @@ namespace TestsProject
 
             Assert.AreEqual(timeArray[1].GetAllMinutes(), time.GetAllMinutes());
         }
-        // TODO: Test TimeArray Indexer Set
+     
 
 
         [TestMethod]

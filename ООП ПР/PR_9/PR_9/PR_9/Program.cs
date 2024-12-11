@@ -1,8 +1,4 @@
 ﻿using PR_9;
-//3.Написать демонстрационную программу, позволяющую создать массив разными способами и распечатать элементы массива.
-//Подсчитать количество созданных объектов.
-//4.Написать функцию в классе Program для выполнения указанного в варианте задания
-//(использовать индексатор и, если необходимо, перегрузить нужные для выполнения задачи операции).
 
 
 public class Program
@@ -18,8 +14,9 @@ public class Program
         string message = "1. Создать массив вручную\n" +
                              "2. Создать массив с помощью ДСЧ\n" +
                              "3. Вывести массив\n" +
-                             "4. Работа с Time\n" +
-                             "5. Выход";
+                             "4. Вывести количество созданных элементов\n" +
+                             "5. Работа с Time\n" +
+                             "6. Выход";
         int numMode;
         bool isRunProgram = true;
         TimeArray? timeArray = null;
@@ -44,7 +41,11 @@ public class Program
                     Console.WriteLine(timeArray);
                     break;
                 case 4:
-                    if (timeArray != null)
+                    if (timeArray != null) Console.WriteLine(Time.countTimes);
+                    else Console.WriteLine("Массив пустой!");
+                    break;
+                case 5:
+                    if (timeArray != null && timeArray.Count>=2)
                     {
                         Console.WriteLine("Введите порядковый номер первого времени: ");
                         int numTime1 = ConsoleInterface.ImputInt();
@@ -60,12 +61,16 @@ public class Program
                             Console.WriteLine("Такого номера не существует. Введите другой номер: ");
                             numTime2 = ConsoleInterface.ImputInt();
                         }
-                        WorkWithTime(new Time(timeArray[numTime1-1]), new Time(timeArray[numTime2-1]));
+                        Time workTime1 = new Time(timeArray[numTime1 - 1]);
+                        Time workTime2 = new Time(timeArray[numTime2 - 1]);
+                        Console.WriteLine(workTime1);
+                        Console.WriteLine(workTime2);
+                        WorkWithTime(workTime1, workTime2);
                         break;
                     }
-                    Console.WriteLine("Массив пустой!");
+                    Console.WriteLine("Элементов массива должно быть больше 2!");
                     break;
-                case 5:
+                case 6:
                     isRunProgram = false;
                     break;
                 default:

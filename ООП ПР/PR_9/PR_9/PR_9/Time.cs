@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,54 +11,67 @@ namespace PR_9
     {
         private int hours;
         private int minutes;
+        public static int countTimes = 0;
+
+        public int Hours
+        {
+            get => hours;
+            set
+            {
+                if (value < 0)
+                {
+                    hours = 0;
+                    
+                }
+            
+                hours = value;
+            }
+        }
+        public int Minutes
+        {
+            get=> minutes;
+            set
+            {
+                if (value < 0)
+                {
+                    
+                    minutes = 0;
+                }
+                else if (value < 60)
+                {
+                    minutes = value;
+                }
+                else
+                {
+                    hours += value / 60;
+                    minutes = value % 60;
+                }
+            }
+        }
 
         public Time(int h, int m)
         {
-            if (m < 0)
-            {
-                h += (m / 60) - 1;
-                m = 60 + (m % 60);
-            }
-            else if (m > 59)
-            {
-                h += m / 60;
-                m = m % 60;
-            }
-            if (h < 0)
-            {
-                h = 0;
-                m = 0;
-            }
-            hours = h;
-            minutes = m;
+            Hours = h;
+            Minutes = m;
+
+            countTimes++;
         }
 
         public Time(int m)
         {
-            Time t = new Time(0, m);
-            hours = t.GetHours();
-            minutes = t.GetMinutes();
+            Minutes = m;
+            countTimes++;
         }
 
         public Time(Time time)
         {
-            hours = time.GetHours();
-            minutes = time.GetMinutes();
+            
+            Hours = time.Hours;
+            Minutes = time.Minutes;
+            countTimes++;
         }
 
-        public int GetHours() => hours;
-        public int GetMinutes() => minutes;
-
-        private void SetHours(int h) {
-            if (h < 0)
-            {
-                hours = 0;
-            }
-            else
-            {
-                hours = h;
-            }
-        }
+        
         public int GetAllMinutes()
         {
             return minutes + hours*60;
@@ -66,31 +80,25 @@ namespace PR_9
         {
             return minutes + hours != 0;
         }
-        private void SetMinutes(int m)
-        {
-            Time t = new Time(hours, m);
-            minutes = t.GetMinutes();
-            hours = t.GetHours();
-        }
+       
         public static Time operator --(Time a)
         {
-            int m = a.GetMinutes();
-            a.SetMinutes(--m);
+            int m = a.Minutes;
+            a.Minutes=(--m);
             return a;
         }
 
         public static Time operator ++(Time a)
         {
-            int m = a.GetMinutes();
-            a.SetMinutes(++m);
+            int m = a.Minutes;
+            a.Minutes = (++m);
             return a;
         }
 
         public static Time operator -(Time a, Time b)
         {
-            int h = a.GetHours() - b.GetHours();
-            int m = a.GetMinutes() - b.GetMinutes();
-            return new Time(h, m);
+            int allMinutes=a.GetAllMinutes()-b.GetAllMinutes();
+            return new Time(0, allMinutes);
         }
 
         public static bool operator >(Time a, Time b)
@@ -106,9 +114,9 @@ namespace PR_9
 
         public override string ToString()
         {
-            if (minutes < 10)
-                return $"{hours}:0{minutes}";
-            return $"{hours}:{minutes}";
+            if (Minutes < 10)
+                return $"{Hours}:0{Minutes}";
+            return $"{Hours}:{Minutes}";
         }
 
     }
