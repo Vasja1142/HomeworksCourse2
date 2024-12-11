@@ -1,0 +1,14 @@
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.exe
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.deps.json
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.runtimeconfig.json
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.dll
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.pdb
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.AssemblyInfoInputs.cache
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.AssemblyInfo.cs
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.csproj.CoreCompileInputs.cache
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.dll
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\refint\AlgebraOfLogic.dll
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.pdb
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.genruntimeconfig.cache
+C:\Users\Василий\source\repos\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\ref\AlgebraOfLogic.dll
