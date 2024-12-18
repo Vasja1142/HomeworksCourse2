@@ -14,11 +14,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
+      "projectName": "AlgebraOfLogic",
+      "projectPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
+      "packagesPath": "C:\\Users\\Василий\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
       "projectName": "AlgebraOfLogic",
       "projectPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
       "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
+=======
+      "projectUniqueName": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
+      "projectName": "AlgebraOfLogic",
+      "projectPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
+      "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
