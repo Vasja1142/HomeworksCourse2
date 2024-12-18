@@ -2,21 +2,26 @@
 
 
 
+using System.Reflection;
+
 internal class Program
 {
-    public static List<List<int>> table;
+    public static List<List<int>> binTable;
     public static List<List<int>> resultTable;
-    public static char[] nameVal = { 'a', 'b', 'c', 'd', 'e' };
+    public static char[] nameValues = { 'a', 'b', 'c', 'd', 'e' };
     private static void Main(string[] args)
     {
         int n = ImputPositiveNumber("Введите количество аргументов (до 5): ");
         while (n > 5) n = ImputPositiveNumber("Введите количество аргументов (до 5): ");
         Console.WriteLine("Вводите значения коньюнкций 1 или 0. Любые положительные числа больше 1 воспринимаются программой за 1.");
-        table = new List<List<int>>((int)Math.Pow(2, n));
+        binTable = new List<List<int>>((int)Math.Pow(2, n));
         resultTable = new List<List<int>>();
         List<int> boolNums = new List<int>(n);
         RecFunc(boolNums, n);
-        PrintTable(table);
+<<<<<<< HEAD
+        PrintTable(binTable);
+=======
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         PrintSKNF(n);
         PrintSDNF(n);
         PrintMDNF(n);
@@ -30,7 +35,7 @@ internal class Program
     {
         Console.Write("СДНФ: ");
         bool flag = false;
-        foreach (List<int> list in table)
+        foreach (List<int> list in binTable)
         {
 
             if (list[list.Count - 1] == 1)
@@ -41,7 +46,7 @@ internal class Program
                 {
 
                     if (list[i] == 0) Console.Write('!');
-                    Console.Write(nameVal[i]);
+                    Console.Write(nameValues[i]);
                 }
 
             }
@@ -50,7 +55,7 @@ internal class Program
     }
 
 
-    public static List<List<int>> MDNFFunc(List<List<int>> ternMDNF, int count)
+    public static List<List<int>> MDNFFunction(List<List<int>> ternMDNF, int count)
     {
         if (count == 0 || ternMDNF.Count == 0)
         {
@@ -98,37 +103,46 @@ internal class Program
                     resultTable.Add(ternMDNF[i].ToList());
                 }
             }
+<<<<<<< HEAD
             PrintTable(resTernMDNF);
             Console.WriteLine("~~~~~~~~~~~~~~~");
-            return MDNFFunc(resTernMDNF, count - 1);
+=======
+            resTernMDNF = DeletintIdenticalLines(resTernMDNF);
+
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
+            return MDNFFunction(resTernMDNF, count - 1);
         }
     }
 
     public static void PrintMDNF(int len)
     {
-        Console.WriteLine("MДНФ: ");
+        Console.Write("MДНФ: ");
         List<List<int>> disTable = new List<List<int>>();
-        for (int i = 0; i < table.Count; i++)
+        for (int i = 0; i < binTable.Count; i++)
         {
-            List<int> list = new List<int>(table.Count - 1);
-            if (table[i][table[i].Count - 1] == 1)
+            List<int> list = new List<int>(binTable.Count - 1);
+            if (binTable[i][binTable[i].Count - 1] == 1)
             {
-                for (int j = 0; j < table[i].Count - 1; j++)
+                for (int j = 0; j < binTable[i].Count - 1; j++)
                 {
-                    list.Add(table[i][j]);
+                    list.Add(binTable[i][j]);
                 }
                 list.Add(0);
                 disTable.Add(list);
             }
         }
-        MDNFFunc(disTable, len - 1);
+        MDNFFunction(disTable, len - 1);
 
+<<<<<<< HEAD
         Console.WriteLine("---");
 
         PrintTable(resultTable);
         Console.WriteLine("----");
-        List<List<int>> MDNF = Pogloshenie(resultTable);
+        List<List<int>> MDNF = Absorbing(resultTable);
         PrintTable(MDNF);
+=======
+        List<List<int>> MDNF = Absorbing(resultTable);
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 
         bool flag = false;
         foreach (List<int> list in MDNF)
@@ -142,7 +156,7 @@ internal class Program
                     if (list[i] == -1) continue;
 
                     if (list[i] == 0) Console.Write('!');
-                    Console.Write(nameVal[i]);
+                    Console.Write(nameValues[i]);
                 }
 
             
@@ -150,39 +164,69 @@ internal class Program
         Console.WriteLine();
     }
 
-    public static List<List<int>> Pogloshenie(List<List<int>> mdnf)
+<<<<<<< HEAD
+    public static List<List<int>> Absorbing(List<List<int>> mdnf)
     {
         bool isEmpty;
-        List<List<int>> resLists = new List<List<int>>();
+        List<List<int>> resultLists = new List<List<int>>();
         for (int i = 0; i < mdnf.Count-1; i++)
+=======
+
+    public static List<List<int>> DeletintIdenticalLines(List<List<int>> list)
+    {
+        List<List<int>> resLists = new List<List<int>>();
+
+        if (list.Count>0)
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         {
-            isEmpty = true;
-            for (int j = i+1; j < mdnf.Count; j++)
-            {   
-                isEmpty = true;
-                for (int k = 0; k < mdnf[0].Count; k++)
-                {
-                    if (mdnf[i][k] != mdnf[j][k])
-                    {
-                        isEmpty = false;
-                    }
-                }
-                if (isEmpty) break;
-            }
-            if (!isEmpty)
+            bool isEmpty;
+            
+            for (int i = 0; i < list.Count - 1; i++)
             {
-                resLists.Add(mdnf[i]);
+<<<<<<< HEAD
+                resultLists.Add(mdnf[i]);
                 continue;
+=======
+                isEmpty = true;
+                for (int j = i + 1; j < list.Count; j++)
+                {
+                    isEmpty = true;
+                    for (int k = 0; k < list[0].Count; k++)
+                    {
+                        if (list[i][k] != list[j][k])
+                        {
+                            isEmpty = false;
+                        }
+                    }
+                    if (isEmpty) break;
+                }
+                if (!isEmpty)
+                {
+                    resLists.Add(list[i]);
+                    continue;
+                }
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
             }
+            resLists.Add(list[list.Count - 1]);
         }
 
+        return resLists;
+    }
 
-        if(mdnf.Count != 0)  resLists.Add(mdnf[mdnf.Count-1]);
+    public static List<List<int>> Absorbing(List<List<int>> mdnf)
+    {
+        List<List<int>> resLists = DeletintIdenticalLines(mdnf);
+
+<<<<<<< HEAD
+        if(mdnf.Count != 0)  resultLists.Add(mdnf[mdnf.Count-1]);
         Console.WriteLine("````````````");
-        PrintTable(resLists);
+        PrintTable(resultLists);
         Console.WriteLine("```````````");
+=======
+        if(mdnf.Count != 0)  resLists.Add(mdnf[mdnf.Count-1]);
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         int counter;
-        foreach (var ints in resLists)
+        foreach (var ints in resultLists)
         {
             counter = -1;
             foreach (int i in ints)
@@ -191,29 +235,35 @@ internal class Program
             }
             ints[ints.Count - 1] = counter;
         }
-        List<List<int>> sortedList = new List<List<int>>(resLists.Count);   
+        List<List<int>> sortedList = new List<List<int>>(resultLists.Count);   
         for (int i = 5; i > 0; i--)
         {
-            for (int j = 0; j < resLists.Count; j++)
+            for (int j = 0; j < resultLists.Count; j++)
             {
-                if (resLists[j][resLists[0].Count-1] == i) sortedList.Add(resLists[j]);
+                if (resultLists[j][resultLists[0].Count-1] == i) sortedList.Add(resultLists[j]);
             }
         }
 
-        resLists = sortedList;
+<<<<<<< HEAD
+        resultLists = sortedList;
         Console.WriteLine("````````````");
-        PrintTable(resLists);
+        PrintTable(resultLists);
         Console.WriteLine("```````````");
 
+        for (int i = 0; i < resultLists.Count; i++)
+=======
+        resLists = sortedList;
+        bool isEmpty;
         for (int i = 0; i < resLists.Count; i++)
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         {
             isEmpty = false;
-            for (int k = 0; k < resLists[0].Count-1; k++)
+            for (int k = 0; k < resultLists[0].Count-1; k++)
             {
                 isEmpty = false;
-                for (int j = 0; j < resLists.Count; j++)
+                for (int j = 0; j < resultLists.Count; j++)
                 {
-                    if (resLists[i][k] == resLists[j][k] && j!=i)
+                    if (resultLists[i][k] == resultLists[j][k] && j!=i)
                     {
                         isEmpty = true;
                         break;
@@ -223,18 +273,18 @@ internal class Program
             }
             if (isEmpty)
             {
-                resLists.RemoveAt(i--);
+                resultLists.RemoveAt(i--);
             }
         }
 
 
-        return resLists; 
+        return resultLists; 
     }
 
     public static void PrintSKNF(int len)
     {
         Console.Write("СКНФ: ");
-        foreach (List<int> list in table)
+        foreach (List<int> list in binTable)
         {
             if (list[list.Count - 1] == 0)
             {
@@ -242,7 +292,7 @@ internal class Program
                 for (int i = 0; i < len; i++)
                 {
                     if (list[i] == 1) Console.Write('!');
-                    Console.Write(nameVal[i]);
+                    Console.Write(nameValues[i]);
                     if (i < len - 1) Console.Write("∨");
                 }
                 Console.Write(")");
@@ -264,7 +314,7 @@ internal class Program
             List<int> listBool = new List<int>(boolNums);
             if (res == 0) listBool.Add(0);
             else listBool.Add(1);
-            table.Add(listBool);
+            binTable.Add(listBool);
         }
         else
         {
@@ -277,18 +327,6 @@ internal class Program
         }
     }
 
-
-    public static void PrintTable(List<List<int>> table )
-    {
-        foreach (List<int> list in table)
-        {
-            foreach (int num in list)
-            {
-                Console.Write(num + " ");
-            }
-            Console.WriteLine();
-        }
-    }
     public static int ImputPositiveNumber(string message, string errorMessage = "Введите положительное число: ")
     {
         Console.Write(message);
