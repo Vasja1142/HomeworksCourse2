@@ -2,36 +2,70 @@
 
 
 
+using System;
 using System.Reflection;
 
 internal class Program
 {
-    public static List<List<int>> table;
+    public static List<List<int>> binTable;
     public static List<List<int>> resultTable;
+    public static Random random = new Random();
     public static char[] nameVal = { 'a', 'b', 'c', 'd', 'e' };
     private static void Main(string[] args)
     {
-        int n = ImputPositiveNumber("Введите количество аргументов (до 5): ");
-        while (n > 5) n = ImputPositiveNumber("Введите количество аргументов (до 5): ");
-        Console.WriteLine("Вводите значения коньюнкций 1 или 0. Любые положительные числа больше 1 воспринимаются программой за 1.");
-        table = new List<List<int>>((int)Math.Pow(2, n));
-        resultTable = new List<List<int>>();
-        List<int> boolNums = new List<int>(n);
-        RecFunc(boolNums, n);
-        PrintSKNF(n);
-        PrintSDNF(n);
-        PrintMDNF(n);
 
+        ConsoleOperations();
     }
 
 
+    public static void ConsoleOperations()
+    {
+        int n = ImputPositiveNumber("Введите количество аргументов (до 5): ");
+        while (n > 5) n = ImputPositiveNumber("Введите количество аргументов (до 5): ");
+       
+        binTable = new List<List<int>>((int)Math.Pow(2, n));
+        resultTable = new List<List<int>>();
+        List<int> boolNums = new List<int>(n);
+        
+        
+        int numAction;
+        bool isRunConsole = true;
+
+        while (isRunConsole)
+        {
+            Console.WriteLine("1. Ручной ввод\n" +
+                "2. Рандомное заполнение\n" +
+                "0. Выход");
+            numAction = ImputInt();
+            switch (numAction)
+            {
+                case 0:
+                    Console.WriteLine("Выход");
+                    isRunConsole = false;
+                    break;
+                case 1:
+                    Console.WriteLine("Вводите значения коньюнкций 1 или 0. Любые положительные числа больше 1 воспринимаются программой за 1.");
+                    CreatingATruthTable(boolNums, n);
+                    break;
+                    case 2:
+                    CreatingARandomTruthTable(boolNums, n);
+                    break;
+                default:
+                    Console.WriteLine("Введено неверное значение");
+                    break;
+            }
+            PrintSKNF(n);
+            PrintSDNF(n);
+            PrintMDNF(n);
+        }
+    }
 
 
     public static void PrintSDNF(int len)
     {
         Console.Write("СДНФ: ");
         bool flag = false;
-        foreach (List<int> list in table)
+        foreach (List<int> list in binTable)
         {
 
             if (list[list.Count - 1] == 1)
@@ -51,7 +85,7 @@ internal class Program
     }
 
 
-    public static List<List<int>> MDNFFunc(List<List<int>> ternMDNF, int count)
+    public static List<List<int>> MDNFFunctions(List<List<int>> ternMDNF, int count)
     {
         if (count == 0 || ternMDNF.Count == 0)
         {
@@ -101,7 +135,7 @@ internal class Program
             }
             resTernMDNF = DeletintIdenticalLines(resTernMDNF);
 
-            return MDNFFunc(resTernMDNF, count - 1);
+            return MDNFFunctions(resTernMDNF, count - 1);
         }
     }
 
@@ -109,22 +143,22 @@ internal class Program
     {
         Console.Write("MДНФ: ");
         List<List<int>> disTable = new List<List<int>>();
-        for (int i = 0; i < table.Count; i++)
+        for (int i = 0; i < binTable.Count; i++)
         {
-            List<int> list = new List<int>(table.Count - 1);
-            if (table[i][table[i].Count - 1] == 1)
+            List<int> list = new List<int>(binTable.Count - 1);
+            if (binTable[i][binTable[i].Count - 1] == 1)
             {
-                for (int j = 0; j < table[i].Count - 1; j++)
+                for (int j = 0; j < binTable[i].Count - 1; j++)
                 {
-                    list.Add(table[i][j]);
+                    list.Add(binTable[i][j]);
                 }
                 list.Add(0);
                 disTable.Add(list);
             }
         }
-        MDNFFunc(disTable, len - 1);
+        MDNFFunctions(disTable, len - 1);
 
-        List<List<int>> MDNF = Pogloshenie(resultTable);
+        List<List<int>> MDNF = Absorbing(resultTable);
 
         bool flag = false;
         foreach (List<int> list in MDNF)
@@ -182,7 +216,7 @@ internal class Program
         return resLists;
     }
 
-    public static List<List<int>> Pogloshenie(List<List<int>> mdnf)
+    public static List<List<int>> Absorbing(List<List<int>> mdnf)
     {
         List<List<int>> resLists = DeletintIdenticalLines(mdnf);
 
@@ -237,7 +271,7 @@ internal class Program
     public static void PrintSKNF(int len)
     {
         Console.Write("СКНФ: ");
-        foreach (List<int> list in table)
+        foreach (List<int> list in binTable)
         {
             if (list[list.Count - 1] == 0)
             {
@@ -254,7 +288,7 @@ internal class Program
         Console.WriteLine();
     }
 
-    public static void RecFunc(List<int> boolNums, int len)
+    public static void CreatingATruthTable(List<int> boolNums, int len)
     {
         if (len == 0)
         {
@@ -267,31 +301,45 @@ internal class Program
             List<int> listBool = new List<int>(boolNums);
             if (res == 0) listBool.Add(0);
             else listBool.Add(1);
-            table.Add(listBool);
+            binTable.Add(listBool);
         }
         else
         {
             for (int i = 0; i < 2; i++)
             {
                 boolNums.Add(i);
-                RecFunc(boolNums, len - 1);
+                CreatingATruthTable(boolNums, len - 1);
                 boolNums.RemoveAt(boolNums.Count - 1);
             }
         }
     }
 
+    public static void CreatingARandomTruthTable(List<int> boolNums, int len)
+    {
+        if (len == 0)
+        {
+            for (int i = 0; i < boolNums.Count; i++)
+            {
+                Console.Write(boolNums[i]);
+            }
 
-    //public static void PrintTable(List<List<int>> table )
-    //{
-    //    foreach (List<int> list in table)
-    //    {
-    //        foreach (int num in list)
-    //        {
-    //            Console.Write(num + " ");
-    //        }
-    //        Console.WriteLine();
-    //    }
-    //}
+            List<int> listBool = new List<int>(boolNums);
+            int randomNum = random.Next(2);
+            Console.WriteLine(" " + randomNum);
+            listBool.Add(randomNum);
+            binTable.Add(listBool);
+        }
+        else
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                boolNums.Add(i);
+                CreatingARandomTruthTable(boolNums, len - 1);
+                boolNums.RemoveAt(boolNums.Count - 1);
+            }
+        }
+    }
+
     public static int ImputPositiveNumber(string message, string errorMessage = "Введите положительное число: ")
     {
         Console.Write(message);
@@ -314,6 +362,5 @@ internal class Program
         }
         return time;
     }
-
 
 }
