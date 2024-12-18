@@ -19,7 +19,10 @@ internal class Program
         List<int> boolNums = new List<int>(n);
         RecFunc(boolNums, n);
 <<<<<<< HEAD
+<<<<<<< HEAD
         PrintTable(binTable);
+=======
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 =======
 >>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         PrintSKNF(n);
@@ -104,8 +107,13 @@ internal class Program
                 }
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             PrintTable(resTernMDNF);
             Console.WriteLine("~~~~~~~~~~~~~~~");
+=======
+            resTernMDNF = DeletintIdenticalLines(resTernMDNF);
+
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 =======
             resTernMDNF = DeletintIdenticalLines(resTernMDNF);
 
@@ -134,12 +142,16 @@ internal class Program
         MDNFFunction(disTable, len - 1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Console.WriteLine("---");
 
         PrintTable(resultTable);
         Console.WriteLine("----");
         List<List<int>> MDNF = Absorbing(resultTable);
         PrintTable(MDNF);
+=======
+        List<List<int>> MDNF = Absorbing(resultTable);
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 =======
         List<List<int>> MDNF = Absorbing(resultTable);
 >>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
@@ -165,11 +177,20 @@ internal class Program
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static List<List<int>> Absorbing(List<List<int>> mdnf)
     {
         bool isEmpty;
         List<List<int>> resultLists = new List<List<int>>();
         for (int i = 0; i < mdnf.Count-1; i++)
+=======
+
+    public static List<List<int>> DeletintIdenticalLines(List<List<int>> list)
+    {
+        List<List<int>> resLists = new List<List<int>>();
+
+        if (list.Count>0)
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 =======
 
     public static List<List<int>> DeletintIdenticalLines(List<List<int>> list)
@@ -184,9 +205,12 @@ internal class Program
             for (int i = 0; i < list.Count - 1; i++)
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 resultLists.Add(mdnf[i]);
                 continue;
 =======
+=======
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
                 isEmpty = true;
                 for (int j = i + 1; j < list.Count; j++)
                 {
@@ -205,6 +229,9 @@ internal class Program
                     resLists.Add(list[i]);
                     continue;
                 }
+<<<<<<< HEAD
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
+=======
 >>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
             }
             resLists.Add(list[list.Count - 1]);
@@ -212,6 +239,7 @@ internal class Program
 
         return resLists;
     }
+<<<<<<< HEAD
 
     public static List<List<int>> Absorbing(List<List<int>> mdnf)
     {
@@ -223,6 +251,14 @@ internal class Program
         PrintTable(resultLists);
         Console.WriteLine("```````````");
 =======
+        if(mdnf.Count != 0)  resLists.Add(mdnf[mdnf.Count-1]);
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
+=======
+
+    public static List<List<int>> Absorbing(List<List<int>> mdnf)
+    {
+        List<List<int>> resLists = DeletintIdenticalLines(mdnf);
+
         if(mdnf.Count != 0)  resLists.Add(mdnf[mdnf.Count-1]);
 >>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         int counter;
@@ -245,6 +281,7 @@ internal class Program
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         resultLists = sortedList;
         Console.WriteLine("````````````");
         PrintTable(resultLists);
@@ -252,6 +289,8 @@ internal class Program
 
         for (int i = 0; i < resultLists.Count; i++)
 =======
+=======
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         resLists = sortedList;
         bool isEmpty;
         for (int i = 0; i < resLists.Count; i++)

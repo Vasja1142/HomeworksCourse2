@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {}
   },
   "projects": {
@@ -13,6 +14,19 @@
         "projectPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
         "packagesPath": "C:\\Users\\Василий\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
+=======
+    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
+        "projectName": "AlgebraOfLogic",
+        "projectPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
+        "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
+>>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 =======
     "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {}
   },
