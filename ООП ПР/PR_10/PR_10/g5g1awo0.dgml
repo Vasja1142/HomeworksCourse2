@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="" Group="Expanded" Label="" Category="CodeSchema_Namespace" />
+    <Node Id="Address" Label="Address" Category="CodeSchema_Class" />
+    <Node Id="Person" Label="Person" Category="CodeSchema_Class" />
+    <Node Id="PersonComparer" Label="PersonComparer" Category="CodeSchema_Class" />
+    <Node Id="Program" Label="Program" Category="CodeSchema_Class" />
+    <Node Id="Library.Goods" Group="Expanded" Label="Library.Goods" Category="CodeSchema_Namespace" />
+    <Node Id="PR_10.Library.Goods.Goods" Label="Goods" Category="CodeSchema_Class" Group="Library.Goods" />
+    <Node Id="PR_10.Library.Goods.MilkProduct" Label="MilkProduct" Category="CodeSchema_Class" Group="Library.Goods" />
+    <Node Id="PR_10.Library.Goods.Product" Label="Product" Category="CodeSchema_Class" Group="Library.Goods" />
+    <Node Id="PR_10.Library.Goods.Toy" Label="Toy" Category="CodeSchema_Class" Group="Library.Goods" />
+    <Node Id="Library.Persons" Group="Expanded" Label="Library.Persons" Category="CodeSchema_Namespace" />
+    <Node Id="PR_10.Library.Persons.IInit" Label="IInit" Category="CodeSchema_Interface" Group="Library.Persons" />
+    <Node Id="PR_10.Library.Persons.Worker" Label="Worker" Category="CodeSchema_Class" Group="Library.Persons" />
+  </Nodes>
+  <Links>
+    <Link Source="" Target="Address" Category="Contains" />
+    <Link Source="" Target="Person" Category="Contains" />
+    <Link Source="" Target="PersonComparer" Category="Contains" />
+    <Link Source="" Target="Program" Category="Contains" />
+    <Link Source="Library.Goods" Target="PR_10.Library.Goods.Goods" Category="Contains" />
+    <Link Source="Library.Goods" Target="PR_10.Library.Goods.MilkProduct" Category="Contains" />
+    <Link Source="Library.Goods" Target="PR_10.Library.Goods.Product" Category="Contains" />
+    <Link Source="Library.Goods" Target="PR_10.Library.Goods.Toy" Category="Contains" />
+    <Link Source="Library.Persons" Target="PR_10.Library.Persons.IInit" Category="Contains" />
+    <Link Source="Library.Persons" Target="PR_10.Library.Persons.Worker" Category="Contains" />
+    <Link Source="PR_10.Library.Goods.Goods" Target="PR_10.Library.Persons.IInit" Category="Implements" />
+    <Link Source="PR_10.Library.Goods.MilkProduct" Target="PR_10.Library.Goods.Product" Category="Inherits" />
+    <Link Source="PR_10.Library.Goods.Product" Target="PR_10.Library.Goods.Goods" Category="Inherits" />
+    <Link Source="PR_10.Library.Goods.Toy" Target="PR_10.Library.Goods.Product" Category="Inherits" />
+    <Link Source="Person" Target="PR_10.Library.Persons.IInit" Category="Implements" />
+    <Link Source="PR_10.Library.Persons.Worker" Target="Person" Category="Inherits" />
+    <Link Source="Program" Target="PR_10.Library.Goods.Goods" Category="Uses" />
+    <Link Source="Program" Target="PR_10.Library.Goods.Product" Category="Uses" />
+    <Link Source="Program" Target="Person" Category="Uses" />
+    <Link Source="Program" Target="PR_10.Library.Persons.Worker" Category="Uses" />
+    <Link Source="Program" Target="PR_10.Library.Persons.IInit" Category="Uses" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" />
+    <Category Id="Inheritance" Background="#FF00FF00" />
+    <Category Id="Implementation" Background="#FFFFFF00" />
+    <Category Id="Composes" Background="#FF008000" />
+    <Category Id="Aggregates" Background="#FFFFA500" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>
