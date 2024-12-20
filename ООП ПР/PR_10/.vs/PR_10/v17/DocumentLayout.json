@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\persons\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\persons\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\milkproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\milkproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\persons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\persons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\goods\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\goods\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\goods\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\goods\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\persons\\iinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\persons\\iinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\goods\\milkproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\goods\\milkproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworks_course2\\\u043E\u043E\u043F \u043F\u0440\\pr_10\\pr_10\\library\\goods\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BED1403-4A09-4072-86B1-48AF3B79F464}|PR_10\\PR_10.csproj|solutionrelative:pr_10\\library\\goods\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,51 +55,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Persons\\Worker.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Persons\\Worker.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Persons\\Worker.cs",
+              "RelativeToolTip": "PR_10\\Library\\Persons\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:10:41.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInit.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Persons\\IInit.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Persons\\IInit.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Persons\\IInit.cs",
+              "RelativeToolTip": "PR_10\\Library\\Persons\\IInit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:10:19.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Persons\\Person.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Persons\\Person.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Persons\\Person.cs",
+              "RelativeToolTip": "PR_10\\Library\\Persons\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:09:20.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Toy.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Toy.cs",
-              "RelativeDocumentMoniker": "PR_10\\Toy.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Toy.cs",
-              "RelativeToolTip": "PR_10\\Toy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\Toy.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Goods\\Toy.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\Toy.cs",
+              "RelativeToolTip": "PR_10\\Library\\Goods\\Toy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T20:33:03.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MilkProduct.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\MilkProduct.cs",
-              "RelativeDocumentMoniker": "PR_10\\MilkProduct.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\MilkProduct.cs",
-              "RelativeToolTip": "PR_10\\MilkProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\MilkProduct.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Goods\\MilkProduct.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\MilkProduct.cs",
+              "RelativeToolTip": "PR_10\\Library\\Goods\\MilkProduct.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:31:54.891Z"
+              "WhenOpened": "2024-12-16T20:31:54.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Product.cs",
-              "RelativeDocumentMoniker": "PR_10\\Product.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Product.cs",
-              "RelativeToolTip": "PR_10\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\Product.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Goods\\Product.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\Product.cs",
+              "RelativeToolTip": "PR_10\\Library\\Goods\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:30:45.751Z"
+              "WhenOpened": "2024-12-16T20:30:45.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Goods.cs",
-              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Goods.cs",
-              "RelativeDocumentMoniker": "PR_10\\Goods.cs",
-              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Goods.cs",
-              "RelativeToolTip": "PR_10\\Goods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\Goods.cs",
+              "RelativeDocumentMoniker": "PR_10\\Library\\Goods\\Goods.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Library\\Goods\\Goods.cs",
+              "RelativeToolTip": "PR_10\\Library\\Goods\\Goods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:30:24.277Z"
+              "WhenOpened": "2024-12-16T20:30:24.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,9 +151,10 @@
               "RelativeDocumentMoniker": "PR_10\\Program.cs",
               "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_10\\PR_10\\Program.cs",
               "RelativeToolTip": "PR_10\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwNwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:24:37.141Z"
+              "WhenOpened": "2024-12-16T20:24:37.141Z",
+              "EditorCaption": ""
             }
           ]
         }

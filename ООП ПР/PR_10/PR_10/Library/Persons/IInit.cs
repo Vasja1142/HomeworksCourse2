@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PR_10
+namespace PR_10.Library.Persons
 {
-    internal class MilkProduct:Product
+    public interface IInit
     {
+        void Init();
+        void RandomInit();
+        void Show();
     }
 }
