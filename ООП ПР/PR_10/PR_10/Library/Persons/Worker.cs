@@ -4,12 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PR_10.Library.Persons
+namespace PR_10.Library.Person
 {
     public class Worker : Person, IComparable<Worker>
     {
-        public string Profession { get; set; }
-        public double Salary { get; set; }
+        private string profession;
+        public string Profession { get => profession;
+            set {
+                if (value == null || value=="") profession = "Не указана";
+                else profession = value; 
+            } 
+        }
+        private double salary;
+        public double Salary { get => salary;
+            set
+            {
+                
+                if( value < 0 || value == null)
+                {
+                    salary = 50000;
+                    Console.WriteLine("Введено некорректное значение. Установленно значение по умолчанию '50000'");
+                }
+                salary = value;
+            }
+        }
 
         public Worker() : base() { } // Вызов конструктора базового класса
 
@@ -30,7 +48,15 @@ namespace PR_10.Library.Persons
             Console.Write("Введите профессию: ");
             Profession = Console.ReadLine();
             Console.Write("Введите зарплату: ");
-            Salary = double.Parse(Console.ReadLine());
+            try
+            {
+                Salary = Convert.ToDouble(Console.ReadLine());
+            }
+            catch (Exception ex) {
+                Salary = 50000;
+                Console.WriteLine($"{ex.Message} Введено значение по умолчанию '50000'");
+            }
+            
         }
 
         public override void RandomInit()
@@ -52,7 +78,7 @@ namespace PR_10.Library.Persons
 
         public int CompareTo(Worker other)
         {
-            if (other == null) return 1; // this > null 
+            if (other == null) return 1;  
             return Salary.CompareTo(other.Salary); // Сортировка по зарплате
         }
     }
