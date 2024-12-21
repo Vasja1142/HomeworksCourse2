@@ -227,8 +227,8 @@ internal class Program
         // 4. Бинарный поиск
         Console.WriteLine("\nБинарный поиск по зарплате (50000):");
         Array.Sort(people.Where(p => p is Worker).Cast<Worker>().ToArray());
-        int index = Array.BinarySearch<Worker>(people.Where(p => p is Worker).Cast<Worker>().ToArray(), new Worker { Salary = 50000 });
-        if (index >= 0) Console.WriteLine("Элемент найден. Индекс = " + index + ". Имя: " + people[index].Name);
+        int index = Array.BinarySearch<Worker>(workers.Cast<Worker>().ToArray(), new Worker { Salary = 50000 });
+        if (index >= 0) Console.WriteLine("Элемент найден. Индекс = " + index + ". Имя: " + workers[index].Name + ". Зарплата: " + workers[index].Salary );
         else Console.WriteLine("Элемент не найден");
 
 

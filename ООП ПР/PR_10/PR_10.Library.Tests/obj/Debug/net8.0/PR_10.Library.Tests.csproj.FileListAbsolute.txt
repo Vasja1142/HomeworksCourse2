@@ -1,0 +1,7 @@
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_PR_10.Library.Tests
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\obj\Debug\net8.0\PR_10.Library.Tests.csproj.AssemblyReference.cache
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\obj\Debug\net8.0\PR_10.Library.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\obj\Debug\net8.0\PR_10.Library.Tests.AssemblyInfoInputs.cache
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\obj\Debug\net8.0\PR_10.Library.Tests.AssemblyInfo.cs
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\obj\Debug\net8.0\PR_10.Library.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Василий\Desktop\Homeworks_course2\ООП ПР\PR_10\PR_10.Library.Tests\obj\Debug\net8.0\PR_10.Library.Tests.sourcelink.json
