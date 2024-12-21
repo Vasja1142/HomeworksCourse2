@@ -13,3 +13,4 @@ C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR
 C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_10\PR_10\obj\Debug\net8.0\PR_10.pdb
 C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_10\PR_10\obj\Debug\net8.0\PR_10.genruntimeconfig.cache
 C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_10\PR_10\obj\Debug\net8.0\ref\PR_10.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\ООП ПР\PR_10\PR_10\obj\Debug\net8.0\PR_10.csproj.AssemblyReference.cache

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PR_10.Library.Goods
+namespace UnitTests
 {
     public class MilkProduct : Product
     {
