@@ -7,10 +7,10 @@
       "RelativeMoniker": "D:0:0:{C966A113-E8ED-4770-B04B-9EE060C1A2E1}|AlgebraOfLogic\\AlgebraOfLogic.csproj|solutionrelative:algebraoflogic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\ConsoleInterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\ConsoleInterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +32,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ConsoleInterface.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\ConsoleInterface.cs",
               "RelativeDocumentMoniker": "..\\..\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\ConsoleInterface.cs",
@@ -44,16 +44,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Time.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs",
               "RelativeDocumentMoniker": "..\\..\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs",
               "RelativeToolTip": "..\\..\\\u041E\u041E\u041F \u041F\u0420\\PR_9\\PR_9\\PR_9\\Time.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T05:32:52.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T05:32:52.96Z"
             },
             {
               "$type": "Document",
@@ -63,7 +62,7 @@
               "RelativeDocumentMoniker": "AlgebraOfLogic\\Program.cs",
               "ToolTip": "C:\\Users\\\u0412\u0430\u0441\u0438\u043B\u0438\u0439\\Desktop\\Homeworks_course2\\\u0414\u0438\u0441\u043A\u0440\u0435\u0442\u043D\u0430\u044F \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 \u041B\u0420\\AlgebraOfLogic\\AlgebraOfLogic\\Program.cs",
               "RelativeToolTip": "AlgebraOfLogic\\Program.cs",
-              "ViewState": "AgIAACsBAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T05:26:48.231Z",
               "EditorCaption": ""

@@ -4,12 +4,5 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

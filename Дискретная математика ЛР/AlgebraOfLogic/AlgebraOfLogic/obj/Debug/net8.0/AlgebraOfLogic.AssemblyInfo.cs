@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgebraOfLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61730219b9c23bdbb332b38eb69776c39052e76d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+758224ed2eaeb41f7d3ecf497d17188cf91f30e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgebraOfLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgebraOfLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
