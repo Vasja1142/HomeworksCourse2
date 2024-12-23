@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PR_10.Library.Person
+namespace PR_10.Library.Persons
 {
     public class Worker : Person, IComparable<Worker>
     {
@@ -19,12 +19,12 @@ namespace PR_10.Library.Person
         public double Salary { get => salary;
             set
             {
-                
                 if( value < 0 || value == null)
                 {
                     salary = 50000;
                     Console.WriteLine("Введено некорректное значение. Установленно значение по умолчанию '50000'");
                 }
+                else
                 salary = value;
             }
         }
@@ -39,7 +39,7 @@ namespace PR_10.Library.Person
 
         public override void Show()
         {
-            Console.WriteLine($"Рабочий: {Name}, Возраст: {Age}, Город: {Address?.City}, Профессия: {Profession}, Зарплата: {Salary: 0.00}");
+            Console.WriteLine($"Рабочий: {Name}, Возраст: {Age}, Город: {Address?.City}, Профессия: {Profession}, Зарплата: {Salary:0.00}");
         }
 
         public override void Init()
@@ -73,7 +73,13 @@ namespace PR_10.Library.Person
             return new Worker(Name, Age, Address?.City, Profession, Salary);
         }
 
-
+        public Person BasePerson
+        {
+            get
+            {
+                return (Person)Clone(); // Используем Clone для глубокого копирования
+            }
+        }
 
 
         public int CompareTo(Worker other)

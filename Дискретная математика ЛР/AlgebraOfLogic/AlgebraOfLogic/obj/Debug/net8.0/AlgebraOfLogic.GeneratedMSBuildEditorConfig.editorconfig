@@ -8,14 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AlgebraOfLogic
-<<<<<<< HEAD
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Василий\Desktop\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\
-=======
-build_property.ProjectDir = C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
-=======
-build_property.ProjectDir = C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

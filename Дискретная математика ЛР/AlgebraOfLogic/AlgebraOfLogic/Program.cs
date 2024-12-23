@@ -18,13 +18,8 @@ internal class Program
         resultTable = new List<List<int>>();
         List<int> boolNums = new List<int>(n);
         RecFunc(boolNums, n);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        PrintTable(binTable);
-=======
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
-=======
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
+
+
         PrintSKNF(n);
         PrintSDNF(n);
         PrintMDNF(n);

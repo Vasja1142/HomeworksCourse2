@@ -7,8 +7,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\UnitTests\UnitTests.csproj" />
-  </ItemGroup>
+
 
 </Project>

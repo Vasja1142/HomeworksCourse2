@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PR_10.Library.Goods
 {
-    internal class Toy : Product
+    public class Toy : Product
     {
         private string material;
 

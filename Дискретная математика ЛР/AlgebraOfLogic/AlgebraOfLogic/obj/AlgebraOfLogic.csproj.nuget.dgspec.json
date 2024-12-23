@@ -1,8 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {}
   },
   "projects": {
@@ -14,38 +12,12 @@
         "projectPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
         "packagesPath": "C:\\Users\\Василий\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
-=======
-    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
-        "projectName": "AlgebraOfLogic",
-        "projectPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
-        "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
-=======
-    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
-        "projectName": "AlgebraOfLogic",
-        "projectPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
-        "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\",
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vasja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Василий\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -54,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -93,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

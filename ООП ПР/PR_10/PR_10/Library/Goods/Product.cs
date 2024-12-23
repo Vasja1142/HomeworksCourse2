@@ -49,10 +49,14 @@ namespace PR_10.Library.Goods
             base.Init();
             Console.Write("Введите цену продукта: ");
 
-            while (!double.TryParse(Console.ReadLine(), out price) || price < 0)
+            try
             {
-                Console.WriteLine("Некорректный ввод. Введите неотрицательное число.");
-                Console.Write("Введите цену продукта: ");
+                Price = Convert.ToDouble(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Price = 0;
+                Console.WriteLine($"{ex.Message} Введено значение по умолчанию '0'");
             }
 
         }

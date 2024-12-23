@@ -3,6 +3,7 @@ using PR_10.Library.Goods;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace PR_10.Library.Persons
 {
@@ -121,6 +122,10 @@ namespace PR_10.Library.Persons
         {
             return (Person)this.MemberwiseClone(); // Поверхностное копирование
         }
+        public override string ToString()
+        {
+            return $"{Name} ({Address?.City})"; 
+        }
 
     }
     public class PersonComparer : IComparer<Person>
@@ -130,4 +135,5 @@ namespace PR_10.Library.Persons
             return string.Compare(x.Name, y.Name);
         }
     }
+
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTests
+namespace PR_10.Library.Goods
 {
     public class MilkProduct : Product
     {
@@ -47,14 +47,17 @@ namespace UnitTests
         {
             base.Init();
             Console.Write("Введите срок годности (в днях): ");
-            int days;
-            while (!int.TryParse(Console.ReadLine(), out days))
+            try
             {
-                Console.WriteLine("Некорректный ввод. Введите положительное целое число.");
-                Console.Write("Введите срок годности (в днях): ");
+                expirationDays =  int.Parse(Console.ReadLine());
+
             }
-            ExpirationDays = days;
+            catch (Exception e)
+            {
+                Console.WriteLine($"{e.Message}. Установлено значение по умолчанию 1");
+            }
         }
+
 
 
         public override void RandomInit()

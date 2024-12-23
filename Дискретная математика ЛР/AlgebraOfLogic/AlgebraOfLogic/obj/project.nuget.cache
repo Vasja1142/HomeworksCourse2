@@ -1,20 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
   "dgSpecHash": "yysByEl8Qcw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
-=======
-  "dgSpecHash": "EXO65bgdmIE=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
-=======
-  "dgSpecHash": "EXO65bgdmIE=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\AlgebraOfLogic.csproj",
->>>>>>> 2c71d6543b8c714b443b7635f7ccd0ab65733ac6
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\Василий\\Desktop\\Homeworks_course2\\Дискретная математика ЛР\\AlgebraOfLogic\\AlgebraOfLogic\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
