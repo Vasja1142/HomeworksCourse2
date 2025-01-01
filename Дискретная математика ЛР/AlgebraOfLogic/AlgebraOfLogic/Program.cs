@@ -97,8 +97,7 @@ internal class Program
                     resultTable.Add(ternMDNF[i].ToList());
                 }
             }
-            resTernMDNF = DeletintIdenticalLines(resTernMDNF
-                );
+            resTernMDNF = DeletintIdenticalLines(resTernMDNF);
             return MDNFFunction(resTernMDNF, count - 1);
         }
     }
