@@ -41,3 +41,18 @@ C:\Users\Василий\Desktop\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\r
 C:\Users\Василий\Desktop\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.pdb
 C:\Users\Василий\Desktop\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.genruntimeconfig.cache
 C:\Users\Василий\Desktop\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\ref\AlgebraOfLogic.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.exe
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.deps.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.runtimeconfig.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\bin\Debug\net8.0\AlgebraOfLogic.pdb
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.AssemblyInfoInputs.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.AssemblyInfo.cs
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.csproj.CoreCompileInputs.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.sourcelink.json
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\refint\AlgebraOfLogic.dll
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.pdb
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\AlgebraOfLogic.genruntimeconfig.cache
+C:\Users\vasja\OneDrive\Рабочий стол\Homeworks_course2\Дискретная математика ЛР\AlgebraOfLogic\AlgebraOfLogic\obj\Debug\net8.0\ref\AlgebraOfLogic.dll
