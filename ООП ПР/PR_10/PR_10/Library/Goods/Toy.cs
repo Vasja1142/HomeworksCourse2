@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PR_10.Library.Goods
 {
-    public class Toy : Product
+    public class Toy : Product, ICloneable
     {
         private string material;
 
@@ -34,13 +29,12 @@ namespace PR_10.Library.Goods
             Material = material;
         }
 
-
         public override void Show()
         {
             Console.WriteLine($"Игрушка: {Name}, Цена: {Price:0.00} руб., Материал: {Material}");
         }
 
-        public new void Display() // Скрываем метод Display() базового класса
+        public new void Display()
         {
             Console.WriteLine($"Игрушка: {Name}, Цена: {Price:0.00} руб., Материал: {Material}");
         }
@@ -66,9 +60,38 @@ namespace PR_10.Library.Goods
             Material = materials[rand.Next(materials.Length)];
 
             string[] toyNames = { "Кукла", "Машинка", "Конструктор", "Мяч", "Пазл" };
-            Name = toyNames[rand.Next(toyNames.Length)]; // Выбираем случайное название из списка
-
+            Name = toyNames[rand.Next(toyNames.Length)];
+        }
+        // Переопределение Equals
+        public override bool Equals(object obj)
+        {
+            if (!base.Equals(obj)) // Вызываем базовый Equals
+            {
+                return false;
+            }
+            Toy other = (Toy)obj;
+            return Material == other.Material;  // Добавляем сравнение по материалу
+        }
+        // Переопределение GetHashCode
+        public override int GetHashCode()
+        {
+            unchecked // Переполнение допустимо
+            {
+                int hash = base.GetHashCode(); // Берем хэш от базового класса
+                hash = (hash * 397) ^ (Material != null ? Material.GetHashCode() : 0); // Добавляем хэш материала
+                return hash;
+            }
+        }
+        public override string ToString()
+        {
+            return $"{base.ToString()}, Материал: {Material}";
         }
 
+
+        // Реализация ICloneable (глубокое клонирование)
+        public override object Clone()
+        {
+            return new Toy(this.Name, this.Price, this.Material); // Создаем НОВЫЙ объект
+        }
     }
 }

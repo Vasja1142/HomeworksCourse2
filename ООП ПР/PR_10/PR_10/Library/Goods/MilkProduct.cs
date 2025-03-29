@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PR_10.Library.Goods
 {
-    public class MilkProduct : Product
+    public class MilkProduct : Product, ICloneable
     {
         private int expirationDays;
         public int ExpirationDays
@@ -33,12 +29,12 @@ namespace PR_10.Library.Goods
             ExpirationDays = expirationDays;
         }
 
-
         public override void Show()
         {
             Console.WriteLine($"Молочный продукт: {Name}, Цена: {Price:0.00} руб., Срок годности: {ExpirationDays} дней");
         }
-        public new void Display() // Скрываем метод Display() базового класса
+
+        public new void Display()
         {
             Console.WriteLine($"Молочный продукт: {Name}, Цена: {Price:0.00} руб., Срок годности: {ExpirationDays} дней");
         }
@@ -49,7 +45,7 @@ namespace PR_10.Library.Goods
             Console.Write("Введите срок годности (в днях): ");
             try
             {
-                expirationDays =  int.Parse(Console.ReadLine());
+                expirationDays = int.Parse(Console.ReadLine());
 
             }
             catch (Exception e)
@@ -63,7 +59,7 @@ namespace PR_10.Library.Goods
         public override void RandomInit()
         {
 
-            base.RandomInit(); // Вызываем RandomInit() базового класса (Product), который вызывает RandomInit() Goods
+            base.RandomInit();
             string[] milkProductNames = { "Молоко", "Кефир", "Йогурт", "Сметана", "Творог" };
             Random rand = new Random();
             Name = milkProductNames[rand.Next(milkProductNames.Length)];
@@ -71,5 +67,35 @@ namespace PR_10.Library.Goods
         }
 
 
+        // Переопределение Equals
+        public override bool Equals(object obj)
+        {
+            if (!base.Equals(obj)) // Вызываем базовый Equals
+            {
+                return false;
+            }
+            MilkProduct other = (MilkProduct)obj;
+            return ExpirationDays == other.ExpirationDays; // Добавляем сравнение по сроку годности
+        }
+        // Переопределение GetHashCode
+        public override int GetHashCode()
+        {
+            unchecked // Переполнение допустимо
+            {
+                int hash = base.GetHashCode(); // Берем хэш от базового класса
+                hash = (hash * 397) ^ ExpirationDays.GetHashCode(); // Добавляем хэш срока годности
+                return hash;
+            }
+        }
+        public override string ToString()
+        {
+            return $"{base.ToString()}, Срок годности: {ExpirationDays} дн.";
+        }
+
+        // Реализация ICloneable (глубокое клонирование)
+        public override object Clone()
+        {
+            return new MilkProduct(this.Name, this.Price, this.ExpirationDays); // Создаем НОВЫЙ объект
+        }
     }
 }

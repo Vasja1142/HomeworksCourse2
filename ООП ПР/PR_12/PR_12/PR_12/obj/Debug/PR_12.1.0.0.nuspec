@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PR_12</id>
+    <version>1.0.0</version>
+    <authors>PR_12</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5f9320a38d24b2fe484d84666b0d3f7a0564215e" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="PR_10" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\vasja\Desktop\Homeworks_course2\ООП ПР\PR_12\PR_12\PR_12\bin\Debug\net8.0\PR_12.runtimeconfig.json" target="lib\net8.0\PR_12.runtimeconfig.json" />
+    <file src="C:\Users\vasja\Desktop\Homeworks_course2\ООП ПР\PR_12\PR_12\PR_12\bin\Debug\net8.0\PR_12.dll" target="lib\net8.0\PR_12.dll" />
+  </files>
+</package>

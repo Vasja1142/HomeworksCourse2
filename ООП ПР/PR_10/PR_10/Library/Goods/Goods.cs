@@ -1,13 +1,10 @@
-﻿using PR_10.Library.Persons;
+﻿// Классы Goods, Product, MilkProduct, Toy (с реализацией ICloneable и Equals)
+using PR_10.Library.Persons;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PR_10.Library.Goods
 {
-    public class Goods : IInit
+    public class Goods : IInit, ICloneable
     {
         public string Name { get; set; }
 
@@ -18,12 +15,11 @@ namespace PR_10.Library.Goods
             Name = name;
         }
 
-
         public virtual void Show()
         {
             Console.WriteLine($"Товар: {Name}");
         }
-        public void Display() // Невиртуальный метод
+        public void Display()
         {
             Console.WriteLine($"Товар: {Name}");
         }
@@ -43,10 +39,35 @@ namespace PR_10.Library.Goods
         public virtual void RandomInit()
         {
             Random rand = new Random();
-            Name = $"товар_{rand.Next(100, 1000)}"; // Генерируем имя "товар_XXX"
+            Name = $"товар_{rand.Next(100, 1000)}";
+        }
+
+        // Переопределение Equals
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+            Goods other = (Goods)obj;
+            return Name == other.Name;
+        }
+
+        // Переопределение GetHashCode (важно при переопределении Equals)
+        public override int GetHashCode()
+        {
+            return Name != null ? Name.GetHashCode() : 0;
+        }
+
+        // Реализация ICloneable (глубокое клонирование)
+        public virtual object Clone()
+        {
+            return new Goods(this.Name); // Создаем НОВЫЙ объект
+        }
+
+        public override string ToString()
+        {
+            return $"Товар: {Name}";
         }
     }
-
-   
-
 }
