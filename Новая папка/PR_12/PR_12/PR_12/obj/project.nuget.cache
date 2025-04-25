@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "c8zGod4Dfu8=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\HomeworksCourse2\\Новая папка\\PR_12\\PR_12\\PR_12\\PR_12.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\vasja\\OneDrive\\Рабочий стол\\HomeworksCourse2\\Новая папка\\PR_10\\PR_10\\PR_10.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\vasja\\OneDrive\\Рабочий стол\\HomeworksCourse2\\Новая папка\\PR_10\\PR_10\\PR_10.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

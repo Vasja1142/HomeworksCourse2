@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworkscourse2\\\u043E\u043E\u043F \u043F\u0440\\libraryproducts\\libraryproducts\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|solutionrelative:libraryproducts\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworkscourse2\\\u043E\u043E\u043F \u043F\u0440\\libraryproducts\\libraryproducts\\milkproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|solutionrelative:libraryproducts\\milkproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworkscourse2\\\u043E\u043E\u043F \u043F\u0440\\libraryproducts\\libraryproducts\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|solutionrelative:libraryproducts\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|c:\\users\\vasja\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\homeworkscourse2\\\u043E\u043E\u043F \u043F\u0440\\libraryproducts\\libraryproducts\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE4A1D95-B449-4FA2-A07D-1977D80C40FF}|LibraryProducts\\LibraryProducts.csproj|solutionrelative:libraryproducts\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Toy.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\Toy.cs",
+              "RelativeDocumentMoniker": "LibraryProducts\\Toy.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\Toy.cs",
+              "RelativeToolTip": "LibraryProducts\\Toy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:30:25.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\Product.cs",
+              "RelativeDocumentMoniker": "LibraryProducts\\Product.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\Product.cs",
+              "RelativeToolTip": "LibraryProducts\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:30:09.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MilkProduct.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\MilkProduct.cs",
+              "RelativeDocumentMoniker": "LibraryProducts\\MilkProduct.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\MilkProduct.cs",
+              "RelativeToolTip": "LibraryProducts\\MilkProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:29:16.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Goods.cs",
+              "DocumentMoniker": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\Goods.cs",
+              "RelativeDocumentMoniker": "LibraryProducts\\Goods.cs",
+              "ToolTip": "C:\\Users\\vasja\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\HomeworksCourse2\\\u041E\u041E\u041F \u041F\u0420\\LibraryProducts\\LibraryProducts\\Goods.cs",
+              "RelativeToolTip": "LibraryProducts\\Goods.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:28:27.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
