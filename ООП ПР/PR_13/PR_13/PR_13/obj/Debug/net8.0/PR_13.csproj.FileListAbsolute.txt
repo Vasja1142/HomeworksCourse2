@@ -14,3 +14,6 @@ C:\Users\vasja\Desktop\Homeworks_course2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug
 C:\Users\vasja\Desktop\Homeworks_course2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug\net8.0\PR_13.genruntimeconfig.cache
 C:\Users\vasja\Desktop\Homeworks_course2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug\net8.0\ref\PR_13.dll
 C:\Users\vasja\Desktop\Homeworks_course2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug\net8.0\PR_13.csproj.AssemblyReference.cache
+C:\Users\vasja\Desktop\HomeworksCourse2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug\net8.0\PR_13.dll
+C:\Users\vasja\Desktop\HomeworksCourse2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug\net8.0\refint\PR_13.dll
+C:\Users\vasja\Desktop\HomeworksCourse2\ООП ПР\PR_13\PR_13\PR_13\obj\Debug\net8.0\PR_13.pdb

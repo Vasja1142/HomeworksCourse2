@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/PR_10.dll": {}
         }
-      },
-      "PR_12/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "PR_10": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PR_12.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PR_12.dll": {}
-        }
       }
     }
   },
@@ -32,17 +19,12 @@
       "type": "project",
       "path": "../../../PR_10/PR_10/PR_10.csproj",
       "msbuildProject": "../../../PR_10/PR_10/PR_10.csproj"
-    },
-    "PR_12/1.0.0": {
-      "type": "project",
-      "path": "../../../PR_12/PR_12/PR_12/PR_12.csproj",
-      "msbuildProject": "../../../PR_12/PR_12/PR_12/PR_12.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "PR_10 >= 1.0.0",
-      "PR_12 >= 1.0.0"
+      "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj",
+      "PR_10 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_13\\PR_13\\PR_13\\PR_13.csproj",
+      "projectUniqueName": "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_13\\PR_13\\PR_13\\PR_13.csproj",
       "projectName": "PR_13",
-      "projectPath": "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_13\\PR_13\\PR_13\\PR_13.csproj",
+      "projectPath": "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_13\\PR_13\\PR_13\\PR_13.csproj",
       "packagesPath": "C:\\Users\\vasja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_13\\PR_13\\PR_13\\obj\\",
+      "outputPath": "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_13\\PR_13\\PR_13\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,11 +59,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_10\\PR_10\\PR_10.csproj": {
-              "projectPath": "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_10\\PR_10\\PR_10.csproj"
+            "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_10\\PR_10\\PR_10.csproj": {
+              "projectPath": "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_10\\PR_10\\PR_10.csproj"
             },
-            "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj": {
-              "projectPath": "C:\\Users\\vasja\\Desktop\\Homeworks_course2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj"
+            "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj": {
+              "projectPath": "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj"
             }
           }
         }
@@ -117,8 +99,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\vasja\\Desktop\\HomeworksCourse2\\ООП ПР\\PR_12\\PR_12\\PR_12\\PR_12.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
